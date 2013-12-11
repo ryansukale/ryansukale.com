@@ -2,3 +2,33 @@
 	width:25px;
 	height:25px;
 }
+
+.page{
+	width:970px;
+}
+
+.page1{
+	background-color:#dadada;
+}
+
+.name-block{
+	margin-top: 20%;
+}
+
+.intro{
+	
+}
+
+.full-name {
+	font-size: 5em;
+	border-bottom: 2px solid #000;
+}
+
+.expertise-list{
+	margin: 10px auto;
+	font-size: 2em;
+}
+
+.network-links-list{
+	margin: 20px auto;
+}

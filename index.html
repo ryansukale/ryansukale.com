@@ -16,13 +16,10 @@
 	
 	
 	<link href="css/plugins/onepage-scroll.css" rel="stylesheet">
-	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	
 	<!-- Sitewide common CSS stylesheet -->
 	<link rel="stylesheet" href="css/common.css">
-
-	<!-- CSS specific to this page -->
-	<link rel="stylesheet" href="css/index.css">
 	
 	<!-- Moving the utils stylesheet to the bottom -->
 	<link rel="stylesheet" href="css/utils.css">
@@ -60,7 +57,7 @@
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="../getting-started">Getting started</a>
+						<a href="">Experience</a>
 					</li>
 					<li>
 						<a href="../css">CSS</a>
@@ -86,7 +83,7 @@
 		
 	<div class="container main-content">
 	
-		<section class="page1 page">
+		<section class="page1 page" id="landing-page">
       
 			<div class="row">
 				
@@ -103,12 +100,17 @@
 							<div class="full-name">Ryan Sukale</div>
 					</div>
 					
+					<div class="qual-block">
+							<div class="title">M.S. Human Computer Interaction, Indiana University</div>
+					</div>
+					
 					<div class="expertise-block">
 						
 						<ul class="list-unstyled expertise-list">
 							<li>Usability</li>
 							<li>User Experience</li>
 							<li>Front End Development</li>
+							<li>Information Architecture</li>
 						</ul>
 						
 					</div>
@@ -131,38 +133,69 @@
 			
     </section>
 		
-    <section class="page2 page">
+    <section class="page2 page" id="experience">
      <div class="row">
 				
 				<div class="col-md-1">
 				</div>
-				<div class="col-md-5">
-				</div>
-				
-				<div class="col-md-5">
+				<div class="col-md-10">
+					<div id="my-timeline"></div>
 				</div>
 				<div class="col-md-1">
 				</div>
 				
       </div>
     </section>
-		
-		<!-- <div class="row">
-			<div class="col-md-6">
-				<img src="" alt="" class="img-rounded"></img>
-			</div>
-			<div class="col-md-6">.col-md-4
-			google
-			</div>
-		</div> -->
-		
-		
+			
 	<!-- 	
 		<footer>
 			<p>&copy; Company 2012</p>
 		</footer> -->
 
-	</div> <!-- /container -->
+	</div>
+	<!-- /container -->
+	
+	<div class="experience-metadata hidden">
+		<div class="exp-tcs">
+			<blockquote>
+				<p class="exp-desc">Built and deployed the Billing System for India's 5th largest telecom provider network(BSNL)</p>
+				<p class="tech"><span>J2EE</span> <span>KenanFX</span></p>
+			</blockquote>
+		</div>
+		<div class="exp-oracle">
+			<blockquote>
+				<p class="exp-desc">Re-engineered Oracle Fusion Financials Search</p>
+				<p class="tech"><span>Orale ADF Components</span> <span>J2EE</span></p>
+			</blockquote>
+		</div>
+		<div class="exp-iu-iat">
+			<blockquote>
+				<p class="exp-desc">Front end Design and Implementation for the STEP project that received the NEH grant at the Institute of American Thought</p>
+				<p class="tech"><span>Usability</span><span>Prototyping</span><span>Wireframing</span><span>javascript</span><span>jQuery</span><span>HTML</span></p>
+			</blockquote>
+		</div>
+		<div class="exp-iu-soic">
+			<blockquote>
+				<p class="exp-desc">
+					Design and Implementation of research experiments for the Uncanny Valley under Professor <a href="http://www.macdorman.com/">Karl F. MacDorman</a>
+				</p>
+				<p class="tech"><span>Usability</span><span>javascript</span><span>HTML</span><span>CSS</span><span>php</span></p>
+			</blockquote>
+		</div>
+		<!-- <div class="exp-iu-soic"> -->
+			<!-- <blockquote> -->
+			
+				<!-- <p class="exp-desc">Design and Implementation of research experiments for the <a href="http://en.wikipedia.org/wiki/Uncanny_valley">Uncanny Valley</a> under Professor <a href="http://www.macdorman.com/">Karl F. MacDorman</a> </p>
+				<p class="tech"><span>Usability</span><span>javascript</span><span>HTML</span><span>CSS</span><span>php</span></p> -->
+			<!-- </blockquote> -->
+		<!-- </div> -->
+		<div class="exp-yahoo">
+			<blockquote>
+				<p class="exp-desc">Front end Dev & Usability for the Yahoo! finance mobile website 2013</p>
+				<p class="tech"><span>Usability</span><span>javascript</span><span>Nodejs</span><span>Expressjs</span><span>HTML</span></p>
+			</blockquote>
+		</div>
+	</div>
 
 	</body>
 	
@@ -192,7 +225,11 @@
 	-->
 	
 	<script type="text/javascript" src="js/plugins/jquery.onepage-scroll.js"></script>
+	<script type="text/javascript" src="js/plugins/storyjs-embed.js"></script>
 	<!-- Script specific to this page -->
 	<script src="js/index.js"></script>
+	<!-- CSS specific to this page -->
+	<link rel="stylesheet" href="css/index.css">
+	
 	
 </html>

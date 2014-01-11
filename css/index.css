@@ -1,4 +1,46 @@
-.icon-logo{
+.introduction{
+	font-size:500%;
+	font-family: 'Lato-light', sans-serif;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.tagline{
+	font-size:400%;
+	font-family: 'Lato-light', sans-serif;
+}
+
+.tbl-keywords{
+	margin:auto;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.tbl-keywords .keyword{
+	padding:5px 10px;
+	margin:20px 5px;
+	background-color:#909090;
+	color:white;
+	border-radius:5px;
+}
+
+.tbl-connections{
+	margin:auto;
+}
+
+.tbl-connections .connection{
+	margin:10px 15px;
+	text-align:center;
+}
+
+.tbl-connections img{
 	width:25px;
-	height:25px;
+}
+
+.email{
+	border-right:1px solid #909090;
+	border-left:1px solid #909090;
+	padding:0px 20px;
+}
+
+.email img{
+	width:50px;
 }

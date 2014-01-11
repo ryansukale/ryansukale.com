@@ -1,0 +1,57 @@
+[
+	{
+		"orgFullName":"Yahoo",
+		"orgShortName":"Yahoo",
+		"icon":"yahoo.png",
+		"team":"Yahoo Finance - Front End",
+		"role":"Technical Intern",
+		"startDate":"05-01-2013",
+		"endDate":"08-01-2013",
+		"summary":"Worked on the redesign of Yahoo Finance for mobile-web. The project was deployed in Nov 2013.",
+		"keywords":["usability","javascript","expressjs","nodejs"]
+	},
+	{
+		"orgFullName":"IUPUI - Institute of American Thought",
+		"orgShortName":"IUPUI IAT",
+		"icon":"iupui.png",
+		"role":"Usability, UX & Front End Developer",
+		"team":"Peirce Edition Project",
+		"startDate":"02-01-2013",
+		"endDate":"05-01-2014",
+		"summary":"Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by NEH. Created instructional videos and conducted usability tests.",
+		"keywords":["wireframing","usability","jquery","javascript","css"]
+	},
+	{
+		"orgFullName":"IUPUI School of Informatics & Computing",
+		"orgShortName":"IUPUI SOIC",
+		"icon":"iupui.png",
+		"role":"Graduate Research Assistant",
+		"team":"N/A",
+		"startDate":"08-01-2012",
+		"endDate":"05-01-2014",
+		"summary":"Created interactive surveys to analyze the uncanny valley effect for research experiments. Created a hulu-like survey to conduct a ~20 day long participatory research.",
+		"keywords":["uncanny valley","jquery","javascript","mysql","php"]
+	},
+	{
+		"orgFullName":"Oracle",
+		"orgShortName":"Oracle",
+		"icon":"oracle.png",
+		"role":"Applications Developer",
+		"team":"Fusion Financials",
+		"startDate":"03-01-2011",
+		"endDate":"07-31-2012",
+		"summary":"Implemented and deployed the Oracle Fusion Search. Implemented the front end of Oracle Fusion VSOE Revenue Management using ADF components. Conducted recruitment interviews.",
+		"keywords":["ADF","J2EE","Java","Oracle"]
+	},
+	{
+		"orgFullName":"Tata Consultancy Services",
+		"orgShortName":"TCS",
+		"icon":"tcs.png",
+		"role":"Applications Engineer",
+		"team":"Telecom-BSNL Billing",
+		"startDate":"11-01-2008",
+		"endDate":"02-28-2011",
+		"summary":"Created and deployed J2EE 8 web services for BSNL Telecom. Managed a team of 4. Conducted recruitment interviews. Conducted training sessions and handled offsite customer support",
+		"keywords":["J2EE","Servlets","KenanFX","Java","Web Services","Oracle"]
+	}
+]

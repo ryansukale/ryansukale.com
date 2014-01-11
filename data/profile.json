@@ -1,53 +1,53 @@
 {
-	'contact':[
+	"contact":[
 		{
-			'displayTitle':'Email',
-			'displayTitleShort':'',
-			'url':'',
-			'icon':'email.png',
-			'type':'personal'
+			"displayTitle":"Email",
+			"displayTitleShort":"",
+			"url":"",
+			"icon":"email.png",
+			"type":"email"
 		},
 		{
-			'displayTitle':'Github',
-			'displayTitleShort':'',
-			'url':'https://github.com/ryansukale',
-			'icon':'github.png',
-			'type':'social'
+			"displayTitle":"Github",
+			"displayTitleShort":"",
+			"url":"https://github.com/ryansukale",
+			"icon":"github.png",
+			"type":"social"
 		},
 		{
-			'displayTitle':'Dzone',
-			'displayTitleShort':'',
-			'url':'http://java.dzone.com/users/ryansukale',
-			'icon':'dzone.png',
-			'type':'social'
+			"displayTitle":"Dzone",
+			"displayTitleShort":"",
+			"url":"http://java.dzone.com/users/ryansukale",
+			"icon":"dzone.png",
+			"type":"social"
 		},
 		{
-			'displayTitle':'Blogger',
-			'displayTitleShort':'',
-			'url':'http://i-and-hci.blogspot.com/',
-			'icon':'blogger.png',
-			'type':'social'
+			"displayTitle":"Blogger",
+			"displayTitleShort":"",
+			"url":"http://i-and-hci.blogspot.com/",
+			"icon":"blogger.png",
+			"type":"social"
 		},
 		{
-			'displayTitle':'LinkedIn',
-			'displayTitleShort':'',
-			'url':'http://www.linkedin.com/pub/ryan-sukale/15/8a/493',
-			'icon':'linkedin.png',
-			'type':'social'
+			"displayTitle":"LinkedIn",
+			"displayTitleShort":"",
+			"url":"http://www.linkedin.com/pub/ryan-sukale/15/8a/493",
+			"icon":"linkedin.png",
+			"type":"social"
 		},
 		{
-			'displayTitle':'Twitter',
-			'displayTitleShort':'',
-			'url':'https://twitter.com/ryansukale',
-			'icon':'twitter.png',
-			'type':'social'
+			"displayTitle":"Twitter",
+			"displayTitleShort":"",
+			"url":"https://twitter.com/ryansukale",
+			"icon":"twitter.png",
+			"type":"social"
 		},
 		{
-			'displayTitle':'Google+',
-			'displayTitleShort':'G+',
-			'url':'https://plus.google.com/115890184070341292264/posts',
-			'icon':'google_plus.png',
-			'type':'social'
+			"displayTitle":"Google+",
+			"displayTitleShort":"G+",
+			"url":"https://plus.google.com/115890184070341292264/posts",
+			"icon":"google_plus.png",
+			"type":"social"
 		}
 	]
 }

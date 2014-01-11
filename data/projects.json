@@ -1,0 +1,193 @@
+[
+	{
+		"title":"Chacha",
+		"summary":"The project was a proposed redesign of the Chacha mobile app. It involved applying the priciples of contextual inquiry for a 2 week period, eliciting user requirements through a feedback loop and then redesigning the app based upon the findings.",
+		"downloadURL":"https://app.box.com/s/klg10yrrbmgelq3o2jqn",
+		"methodology": {
+			"points":[
+				"Contextual Enquiry - email based 2 week journal study, 6 participants",
+				"Conceptual Modeling",
+				"Diagramming - Affinity, Structural, Cultural, Sequence, Artifact",
+				"Application of the Interactive Dialogue Model(IDM) design methodology for interaction design",
+				"Paper prototyping",
+				"High fidelity prototyping (using Axure/Inkscape)",
+				"Usability testing of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A prototype of the iPhone app for Chacha with a revamped workflow model"
+	},
+	{
+		"title":"",
+		"summary":"",
+		"downloadURL":"",
+		"methodology": {
+			"points":[
+				
+			],
+			"keywords":[]
+		},
+		"deliverable":""
+	},
+	{
+		"title":"Youtube",
+		"summary":"The project involved conducting a usability evaluation of youtube's user interface from the perspective of a content contributor/uploader.",
+		"downloadURL":"https://app.box.com/s/bx8wfxg6amalsn468le4",
+		"methodology": {
+			"points":[
+				"User research - Task Design, User Interviews",
+				"Heuristic Evaluation",
+				"Cognitive Walkthroughs",
+				"Combined analysis of the Cognitive and Heuristic Evaluation",
+				"User testing - Task Design participants",
+				"High fidelity prototyping (using Axure/Inkscape)",
+				"Task time comparison with a competitor(Vimeo)"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A comprehensive usability report enlisting the usability flaws in Youtube's interface based upon its heuristic evaluation and cognitive walkthrough."
+	},
+	{
+		"title":"IndyTracker",
+		"summary":"IndyTracker is a prototype for a mobile application for bus travelers to help them easily identify the right bus terminal, facilities and amenities, and live updates about their travel route.",
+		"downloadURL":"https://app.box.com/s/jc4a4gehhcvc3qz9dt7l",
+		"methodology": {
+			"points":[
+				"Contextual Enquiry - field study",
+				"Conceptual Modeling",
+				"Diagramming - Affinity, Structural, Cultural, Sequence, Artifact",
+				"Application of the Interactive Dialogue Model(IDM) design methodology for interaction design",
+				"Paper prototyping",
+				"High fidelity prototyping (using Axure/Inkscape)",
+				"Usability testing of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"An interactive HighFidelity prototype for the application and a project report describing the methodologies that were applied."
+	},
+	{
+		"title":"MusicNow",
+		"summary":"The MusicNow project was all about creating an interactive prototype for iPhone application to enable musicians, local business owners and fans to connect and share reviews, opportunities for gigs and a maintain their portfolio.",
+		"downloadURL":"https://app.box.com/s/cwlrj66rps3cjffrqpj7",
+		"methodology": {
+			"points":[
+				"Conceptual Modeling",
+				"Personas and Scenario creation",
+				"User Research interviews",
+				"Interaction design",
+				"High Fidelity Prototyping (using HTML/Inkscape)",
+				"Usability survey and evaluation of the HIFI prototype",
+				"Final Project Report"
+			],
+			"keywords":[]
+		},
+		"deliverable":"An interactive high fidelity prototype simulating the different screens and interactions within the app and a report describing the design methodologies that were applied."
+	},
+	{
+		"title":"RoamWithMe",
+		"summary":"The project aimed to develop a prototype for a system that facilitates Computer Supported Collaborative Work (CSCW). The project involved prototyping a smartphone application that helps travelers create their own local networks with fellow travelers, facilitating flow of information, connection with local brands, and geo location sharing within local networks",
+		"downloadURL":"https://app.box.com/s/bcd8mg6alziqomyec8mk",
+		"methodology": {
+			"points":[
+				"Conceptual Modeling",
+				"Personas and Scenario creation",
+				"User Research interviews",
+				"Interaction design",
+				"High Fidelity Prototyping (using Axure/Inkscape)",
+				"Usability survey and evaluation of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A high fidelity prototype of the smartphone travel app that simulated the interaction and user experience of a real application and a usability report describing the methodologies applied."
+	},
+	{
+		"title":"Formulate - A Sifteo Cubes Game",
+		"summary":"The project involved creating a low fidelity prototype of a game that makes use of new modes of collaborative interactive experiences offered by Sifteo Cubes without using the actual sifteo cubes.",
+		"downloadURL":"https://app.box.com/s/cun8gqzei8y3ub085x3y",
+		"methodology": {
+			"points":[
+				"Conceptual Modeling",
+				"Paper Prototyping",
+				"Task and Scenario Design",
+				"User Research interviews",
+				"Interaction design",
+				"High Fidelity Prototyping (using HTML/jQuery)",
+				"Usability evaluation of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A high fidelity prototype of the smartphone travel app that simulated the interaction and user experience of a real application and a usability report describing the methodologies applied."
+	},
+	{
+		"title":"HomeShopper",
+		"summary":"HomeShopper is an iPhone app that lets people keep track of their groceries and perform in-store analysis of deals and discounts of items in the shopping list. It also provides consumption analytics and insights based upon user behavior.",
+		"downloadURL":"https://app.box.com/s/2jibmf1pbo7gq4cfvr6w",
+		"methodology": {
+			"points":[
+				"Conceptual Modeling",
+				"Paper Prototyping",
+				"Task and Scenario Design",
+				"User Research interviews",
+				"Interaction design",
+				"High Fidelity Prototyping (using Axure/Inkscape)",
+				"Usability evaluation of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"An interactive high fidelity prototype of the iPhone app built demonstrating the use of paper prototyping for interaction modeling and a report describing the methodologies applied."
+	},
+	{
+		"title":"Pagital",
+		"summary":"Pagital is a prototype of a platform that allows integration of paper and digital organizers. This 8 week project started from exploratory design and ended with an interactive paper prototype.",
+		"downloadURL":"https://app.box.com/s/jge5lg4i8whvz8h0tkpq",
+		"methodology": {
+			"points":[
+				"Problem space identification",
+				"Exploratory method - Generative research",
+				"Exploratory method - Interviewing",
+				"Exploratory method - Critical Incident Technique",
+				"Exploratory method - Card Sorting",
+				"Solution Ideation - Concept Sorting",
+				"Solution Ideation - Morphological Synthesis",
+				"Paper prototyping"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A paper prototype and reflection report on the methods that were conducted."
+	},
+	{
+		"title":"Bloomberg Alerts",
+		"summary":"This 4 week project was an design experiment to ideate on improving the user experience of the stock alert mechanism in the Bloomberg Terminal.",
+		"downloadURL":"https://app.box.com/s/hs3vgbw5x2b9ihiz0dac",
+		"methodology": {
+			"points":[
+				"Problem space definition",
+				"Persona Creation",
+				"Concept Definition",
+				"Design synthesis",
+				"Exploratory method - Card Sorting",
+				"Sketching & Paper prototyping",
+				"High Fidelity prototyping - Static Images/Storyboard"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A storyboard of the the proposed interface with a detailed project report on the design process."
+	},
+	{
+		"title":"Residence Finding UX",
+		"summary":"This 8 week project was geared towards facilitation of participatory design. The project aimed to elicit information about the emotions and difficulties people undergo when looking for a residence through several rounds of method facilitation.",
+		"downloadURL":"file:///H:/BACKUPS/profile/hciProjects.html",
+		"methodology": {
+			"points":[
+				"Problem space identification",
+				"Facilitation - User Journey Map",
+				"Analysis - Insight Sorting",
+				"Facilitation - Concept Scenarios",
+				"Analysis - Insight Sorting",
+				"Information Visualization"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A booklet on the findings from the facilitation and visualization of the information."
+	}
+]

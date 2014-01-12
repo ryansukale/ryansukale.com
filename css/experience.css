@@ -1,0 +1,81 @@
+.job{
+    border-top:1px solid #CACACA;
+	border-bottom:1px solid #CACACA;
+    padding:10px 5px;
+}
+
+.role{
+    font-size:1.2em;
+}
+
+.org-name{
+    font-size: 3.6em;
+    border-left:1px solid #dadada;
+    border-right:1px solid #dadada;
+}
+
+.duration div{
+    text-align:center;
+}
+
+.start{
+    width:45%;
+    float:left;
+    padding:5px 0px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.separator{
+    width:10%;
+    float:left;
+    overflow:auto;
+    margin:5px 0px;
+}
+
+
+.end{
+    width:45%;
+    float:left;
+    padding:5px 0px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.role, .start, .end, .separator{
+    background-color:#dadada;
+}
+
+.org-details{
+    padding:0px;
+    padding-right:10px;
+}
+
+.role-details{
+	border-left:1px solid #dadada;
+	overflow:auto;
+}
+
+.summary{
+    font-size:2em;
+    font-family: 'Lato-light', sans-serif;
+}
+
+.tags li{
+	padding:5px 10px;
+	margin:0px 5px 5px 0px;
+	background-color:#909090;
+	color:white;
+	border-radius:5px;
+  float:left;
+	font-weight:bold;
+}
+
+.team-details{
+	margin:5px 0px 0px 0px;
+}
+
+.team-details .heading{
+	color:green;
+	font-weight:bold;
+}

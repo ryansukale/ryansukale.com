@@ -44,6 +44,7 @@
 
 .role, .start, .end, .separator{
     background-color:#dadada;
+		color:white;
 }
 
 .org-details{
@@ -56,7 +57,7 @@
 	overflow:auto;
 }
 
-.summary{
+.job .summary{
     font-size:2em;
     font-family: 'Lato-light', sans-serif;
 }

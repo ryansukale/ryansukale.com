@@ -29,6 +29,7 @@
 		body{
 			position: relative;
 			padding-top: 50px;
+			padding-bottom: 50px;
 		}
 		
 	</style>
@@ -81,40 +82,10 @@
 		
 	<div class="container">
 		
-		<div class="row job mt-20">
-			<div class="col-md-3 org-details">
-				<div class="role pt-5 pb-5 c">
-					My Role
-				</div>
-				<div class="org-name pt-10 pb-10 c">
-					Yahoo
-				</div>
-				<div class="duration">
-					<div class="start">Jan 2013</div>
-					<div class="separator c">-</div>
-					<div class="end">Dec 2013</div>
-				</div>
-			</div>
-			<div class="col-md-9 role-details">
-				<div class="summary mt-10">
-					Worked on the redesign of the Yahoo Finance mobile-website. <br/>The project was deployed in Nov 2013.
-				</div>
-				<div class="team-details">
-					<span class="heading">Team :</span>
-					<span class="team-name">Yahoo Finance Front-End</span>
-				</div>
-				<div class="tags">
-					<ul class="list-unstyled">
-						<li>usability</li>
-						<li>javascript</li>
-						<li>expressjs</li>
-						<li>nodejs</li>
-					</ul>
-				</div>
-			</div>
+		<div class="job-details">
+		
 		</div>
 		
-	
 	</div>
 	<!-- /container -->
 
@@ -146,5 +117,42 @@
 	
 	<!-- Script specific to this page -->
 	<script src="js/experience.js"></script>
+	
+	<script type="text/template" id="_tmplJobRow">
+		<div class="row job mt-20">
+			<div class="col-md-3 org-details">
+				<div class="role pt-5 pb-5 c">
+					<%= role%>
+				</div>
+				<div class="org-name pt-10 pb-10 c">
+					<%= displayName%>
+				</div>
+				<div class="duration">
+					<div class="start"><%= startDateDisplay %></div>
+					<div class="separator c">-</div>
+					<div class="end"><%= endDateDisplay %></div>
+				</div>
+			</div>
+			<div class="col-md-9 role-details">
+				<div class="summary mt-10">
+					<%= summary %>
+				</div>
+				<div class="team-details">
+					<span class="heading">Team :</span>
+					<span class="team-name"><%= team %></span>
+				</div>
+				<div class="tags">
+					<ul class="list-unstyled">
+						<% _.each(keywords,function(element, index, list){ %>
+						
+							<li><%= element %></li>
+							
+						<% }); %>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</script>
 	
 </html>

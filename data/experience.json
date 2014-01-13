@@ -1,5 +1,6 @@
 [
 	{
+		"displayName":"Yahoo",
 		"orgFullName":"Yahoo",
 		"orgShortName":"Yahoo",
 		"icon":"yahoo.png",
@@ -7,35 +8,44 @@
 		"property-color":"#915ED1",
 		"role":"Technical Intern",
 		"startDate":"05-01-2013",
-		"endDate":"08-01-2013",
+		"startDateDisplay":"May 2013",
+		"endDate":"08-31-2013",
+		"endDateDisplay":"Aug 2013",
 		"summary":"Worked on the redesign of the Yahoo Finance mobile-website. <br/>The project was deployed in Nov 2013.",
 		"keywords":["usability","prototyping","javascript","expressjs","nodejs"]
 	},
 	{
+		"displayName":"IU",
 		"orgFullName":"IUPUI - Institute of American Thought",
 		"orgShortName":"IUPUI IAT",
 		"icon":"iupui.png",
 		"role":"Usability, UX & Front End Developer",
 		"team":"Peirce Edition Project",
-		"property-color":"#B30000",
+		"property-color":"#770F0F",
 		"startDate":"02-01-2013",
+		"startDateDisplay":"Feb 2013",
 		"endDate":"05-01-2014",
-		"summary":"Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by NEH. Created instructional videos and conducted usability tests.",
+		"endDateDisplay":"Present",
+		"summary":"Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by the NEH. <br/>Created instructional videos and conducted usability tests.",
 		"keywords":["wireframing","usability","jquery","javascript","css"]
 	},
 	{
+		"displayName":"IU",
 		"orgFullName":"IUPUI School of Informatics & Computing",
 		"orgShortName":"IUPUI SOIC",
 		"icon":"iupui.png",
 		"role":"Graduate Research Assistant",
 		"team":"N/A",
-		"property-color":"#B30000",
+		"property-color":"#770F0F",
 		"startDate":"08-01-2012",
+		"startDateDisplay":"Aug 2012",
 		"endDate":"05-01-2014",
-		"summary":"Created interactive surveys to analyze the uncanny valley effect for research experiments. Created a hulu-like survey to conduct a ~20 day long participatory research.",
+		"endDateDisplay":"Present",
+		"summary":"Created interactive surveys to analyze the uncanny valley effect for research experiments. <br/>Created a hulu-like survey to conduct a ~20 day long participatory research experiment.",
 		"keywords":["uncanny valley","jquery","javascript","mysql","php"]
 	},
 	{
+		"displayName":"Oracle",
 		"orgFullName":"Oracle",
 		"orgShortName":"Oracle",
 		"icon":"oracle.png",
@@ -43,11 +53,14 @@
 		"team":"Fusion Financials",
 		"property-color":"#B30000",
 		"startDate":"03-01-2011",
+		"startDateDisplay":"March 2011",
 		"endDate":"07-31-2012",
-		"summary":"Implemented and deployed the Oracle Fusion Search. Implemented the front end of Oracle Fusion VSOE Revenue Management using ADF components. Conducted recruitment interviews.",
+		"endDateDisplay":"July 2012",
+		"summary":"Implemented and deployed the Oracle Fusion Search. <br/>Implemented the front end of Oracle Fusion VSOE Revenue Management using ADF components. <br/>Conducted recruitment interviews.",
 		"keywords":["ADF","J2EE","Java","Oracle"]
 	},
 	{
+		"displayName":"TCS",
 		"orgFullName":"Tata Consultancy Services",
 		"orgShortName":"TCS",
 		"icon":"tcs.png",
@@ -55,8 +68,10 @@
 		"team":"Telecom-BSNL Billing",
 		"property-color":"#6072CF",
 		"startDate":"11-01-2008",
-		"endDate":"02-28-2011",
-		"summary":"Created and deployed J2EE 8 web services for BSNL Telecom. Managed a team of 4. Conducted recruitment interviews. Conducted training sessions and handled offsite customer support",
+		"startDateDisplay":"Oct 2008",
+		"endDate":"03-28-2011",
+		"endDateDisplay":"March 2011",
+		"summary":"Created and deployed J2EE 8 web services for BSNL Telecom. Managed a team of 4. <br/>Conducted recruitment interviews. <br/>Conducted training sessions and handled offsite customer support",
 		"keywords":["J2EE","Servlets","KenanFX","Java","Web Services","Oracle"]
 	}
 ]

@@ -1,5 +1,5 @@
 .job{
-    border-top:1px solid #CACACA;
+    /*border-top:1px solid #CACACA;*/
 	border-bottom:1px solid #CACACA;
     padding:10px 5px;
 }
@@ -79,4 +79,21 @@
 .team-details .heading{
 	color:green;
 	font-weight:bold;
+}
+
+.overall-summary{
+	font-weight:bold;
+}
+
+.total-exp{
+	border-bottom:1px solid #dadada;
+	padding-bottom:10px;
+	margin-top:5px;
+}
+
+
+.current-status{
+	border-bottom:1px solid #dadada;
+	padding-bottom:10px;
+	margin-top:5px;
 }

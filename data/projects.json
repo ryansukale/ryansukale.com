@@ -1,7 +1,7 @@
 [
 	{
 		"title":"Chacha",
-		"summary":"The project was a proposed redesign of the Chacha mobile app. It involved applying the priciples of contextual inquiry for a 2 week period, eliciting user requirements through a feedback loop and then redesigning the app based upon the findings.",
+		"summary":"The project is redesign proposal for the Chacha mobile app. It involved applying the priciples of contextual inquiry for a 2 week period, eliciting user requirements through a feedback loop and then redesigning the app based upon the findings.",
 		"downloadURL":"https://app.box.com/s/klg10yrrbmgelq3o2jqn",
 		"methodology": {
 			"points":[
@@ -16,18 +16,6 @@
 			"keywords":[]
 		},
 		"deliverable":"A prototype of the iPhone app for Chacha with a revamped workflow model"
-	},
-	{
-		"title":"",
-		"summary":"",
-		"downloadURL":"",
-		"methodology": {
-			"points":[
-				
-			],
-			"keywords":[]
-		},
-		"deliverable":""
 	},
 	{
 		"title":"Youtube",
@@ -176,7 +164,7 @@
 	{
 		"title":"Residence Finding UX",
 		"summary":"This 8 week project was geared towards facilitation of participatory design. The project aimed to elicit information about the emotions and difficulties people undergo when looking for a residence through several rounds of method facilitation.",
-		"downloadURL":"file:///H:/BACKUPS/profile/hciProjects.html",
+		"downloadURL":"https://app.box.com/s/vem1l0waepy52i70frqv",
 		"methodology": {
 			"points":[
 				"Problem space identification",

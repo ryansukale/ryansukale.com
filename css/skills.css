@@ -1,0 +1,58 @@
+.row{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+.grid-col{
+	padding:0px;
+}
+
+
+.ux{
+	border-bottom: 1px solid #5E88B6;
+	overflow:auto;
+}
+
+.key{
+	font-size:1.5em;
+	font-family: 'Lato-light', sans-serif;
+	background-color:darkred;
+	color:white;
+	padding:5px 0px;
+	/* border-radius:5px; */
+	margin-top:5px;
+}
+
+.key-desc{
+	text-align:justify;
+	padding:5px 15px 0px 10px;
+}
+
+.heading{
+	border-bottom: 1px solid #dadada;
+	padding:5px;
+	overflow:auto;
+	background-color:#eaeaea;
+}
+
+.skill{
+	margin-top:5px;
+	border-radius:5px;
+	border:1px solid #dadada;
+	margin:5px;
+}
+
+
+.skill .name{
+	border-bottom:1px solid #dadada;
+	font-size:1.3em;
+	padding:5px;
+	text-align:center;
+}
+
+
+.skill .description{
+	font-size:1.2em;
+	padding:5px;
+	text-align:justify;
+}

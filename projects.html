@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css/common.css">
 
 	<!-- CSS specific to this page -->
-	<link rel="stylesheet" href="css/experience.css">
+	<link rel="stylesheet" href="css/projects.css">
 	
 	<!-- Moving the utils stylesheet to the bottom -->
 	<link rel="stylesheet" href="css/utils.css">
@@ -59,10 +59,10 @@
 			</div>
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 				<ul class="nav navbar-nav">
-					<li class="active">
-						<a href="#">Experience</a>
-					</li>
 					<li>
+						<a href="./experience.html">Experience</a>
+					</li>
+					<li class="active">
 						<a href="./projects.html">Projects</a>
 					</li>
 					<li>
@@ -83,13 +83,12 @@
 	<div class="container">
 		
 		<div class="overall-summary row mt-10">
-			<div class="col-xs-12 col-sm-6 c total-exp">Total Experience : ~4 years (2008-2012)</div>
-			<div class="col-xs-12 col-sm-6 c current-status">Current : MS in HCI (May 2014 Graduate)</div>
+			<div class="col-xs-12 col-sm-6 c total-exp">Projectss : 10 (2008-2012)</div>
 		</div>
 		
 		<!-- Start: job details -->
-		<div class="job-details">
-		
+		<div class="projects">
+			
 		</div>
 		<!-- End: job details -->
 		
@@ -123,42 +122,48 @@
 	-->
 	
 	<!-- Script specific to this page -->
-	<script src="js/experience.js"></script>
+	<script src="js/projects.js"></script>
 	
-	<script type="text/template" id="_tmplJobRow">
-		<div class="row job mb-20">
-			<div class="col-md-3 org-details">
-				<div class="role pt-5 pb-5 c">
-					<%= role%>
-				</div>
-				<div class="org-name pt-10 pb-10 c">
-					<%= displayName%>
-				</div>
-				<div class="duration">
-					<div class="start"><%= startDateDisplay %></div>
-					<div class="separator c">-</div>
-					<div class="end"><%= endDateDisplay %></div>
-				</div>
-			</div>
-			<div class="col-md-9 role-details">
-				<div class="summary mt-10">
-					<%= summary %>
-				</div>
-				<div class="team-details">
-					<span class="heading">Team :</span>
-					<span class="team-name"><%= team %></span>
-				</div>
-				<div class="tags">
-					<ul class="list-unstyled">
-						<% _.each(keywords,function(element, index, list){ %>
+	<script type="text/template" id="_tmplProjectRow">
+		<div class="row project mb-20">
+				<div class="col-md-3 project-info mt-10">
+					<div class="project-title pt-5 pb-5 c">
+						<%=title%>
+					</div>
+					<div class="resources mt-10 mb-10 c">
+						<a href="<%=downloadURL%>" class=" btn btn-primary">
+							<span>Download Report</span>
+							<span class="glyphicon glyphicon-cloud-download"></span>
+						</a>
 						
-							<li><%= element %></li>
-							
-						<% }); %>
-					</ul>
+					</div>
+				</div>
+				<div class="col-md-9 project-details mt-10">
+					<div class="summary">
+						<div class="heading">Project Summary</div>
+						<div class="description">
+							<%=summary%>
+						</div>
+					</div>
+					<div class="methodology">
+						<div class="heading">Methodology</div>
+						<ul class="description">
+								<% _.each(methodology.points,function(element, index, list){ %>
+						
+									<li><%= element %></li>
+									
+								<% }); %>
+						</ul>
+					</div>
+					<div class="deliverable">
+						<div class="heading">Deliverable</div>
+						<div class="description">
+							<%=deliverable%>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			
 		
 	</script>
 	

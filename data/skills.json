@@ -1,24 +1,29 @@
 {
 	"headings":[
 		{
-			"key":"User Experience",
-			"keyDesc":"It is more important to deliver the right product than to simply deliver a product. I owe most of my usability/ux expertise to the projects that I did during my Master's program in Human Computer Interaction at Indiana University."
+			"title":"User Experience",
+			"titleDesc":"It is more important to deliver the right product than to simply deliver a product. I owe most of my usability/ux expertise to the projects that I did during my Master's program in Human Computer Interaction at Indiana University.",
+			"key":"ux"
 		},
 		{
-			"key":"Prototyping",
-			"keyDesc":"Design before you code. This has now become my motto. Early prototyping helps save significant amount of development time and effort."
+			"title":"Prototyping",
+			"titleDesc":"Design before you code. This has now become my motto. Early prototyping helps save significant amount of development time and effort.",
+			"key":"prototyping"
 		},
 		{
-			"key":"Design",
-			"keyDesc":" I mainly create vector graphics for most of my wireframes and prototypes."
+			"title":"Design",
+			"titleDesc":" I mainly create vector graphics for most of my wireframes and prototypes.",
+			"key":"design"
 		},
 		{
-			"key":"Development",
-			"keyDesc":"I have spent considerable time learning web development and I use it to my best advantage when I need to create interactive prototypes. The web has become such an exciting new place that its not possible to not get involved in creating for the web."
+			"title":"Development",
+			"titleDesc":"I have spent considerable time learning web development and I use it to my best advantage when I need to create interactive prototypes. The web has become such an exciting new place that its not possible to not get involved in creating for the web.",
+			"key":"development"
 		},
 		{
-			"key":"Tools",
-			"keyDesc":" There are certain tools that I have grown to love, admire (and hate as well)."
+			"title":"Tools",
+			"titleDesc":" There are certain tools that I have grown to love, admire (and hate as well).",
+			"key":"tools"
 		}
 	],
 	"skills":[

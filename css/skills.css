@@ -8,7 +8,7 @@
 }
 
 
-.ux{
+.ux,.prototyping,.design,.development,.tools{
 	border-bottom: 1px solid #5E88B6;
 	overflow:auto;
 }
@@ -44,15 +44,14 @@
 
 
 .skill .name{
-	border-bottom:1px solid #dadada;
-	font-size:1.3em;
-	padding:5px;
+	font-size: 2em;
+	padding: 10px 0px 5px 0px;
 	text-align:center;
 }
 
 
 .skill .description{
-	font-size:1.2em;
-	padding:5px;
-	text-align:justify;
+	font-size: 1.5em;
+	padding: 5px 20px 10px 20px;
+	font-family: 'Lato-light', sans-serif;
 }

@@ -1,8 +1,46 @@
 $(function(){
+
+	var tmplHeading = $("#_tmplHeading").html();
 	
 	$.getJSON( "data/skills.json")
-		.done(function(skills){
+		.done(function(response){
 			
+			var skills = response.skills,
+			headings = response.headings;
+			
+			var config = [
+				{
+					"selector":".ux",
+					"key":"ux"
+				},
+				{
+					"selector":".prototyping",
+					"key":"prototyping"
+				},
+				{
+					"selector":".design",
+					"key":"design"
+				},
+				{
+					"selector":".development",
+					"key":"development"
+				},
+				{
+					"selector":".tools",
+					"key":"tools"
+				}
+			];
+			
+			
+			//Cache the jQuery objects (Backbone style)
+			_.each(config,function(settings, index, config){
+				settings['$el']=$(settings.selector);
+			});
+			
+			_.each(config,function(settings, index, config){
+				var headingDtls = _.findWhere(headings, {"key":settings.key});
+				$('.heading',settings.$el).append(_.template(tmplHeading, headingDtls));
+			});
 			
 			
 		});

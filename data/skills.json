@@ -22,7 +22,7 @@
 		},
 		{
 			"title":"Tools",
-			"titleDesc":" There are certain tools that I have grown to love, admire (and hate as well).",
+			"titleDesc":" Over the years, there are certain tools that I have grown to love, admire (and hate as well).",
 			"key":"tools"
 		}
 	],
@@ -30,7 +30,7 @@
 		{
 			"name":"Usability",
 			"description":"I am firm believer in the power of compounding. Tiny problems in an interface, if performed repeatedly enough, can compound to create frustrating user experiences. I focus on those tiny problems and get them out of the way. I specialize in conducting Heuristic Evaluation and Cognitive Walkthroughs.",
-			"type":"User Experience",
+			"type":"User Experience","key":"ux",
 			"Keywords":[],
 			"urls":{
 				"Heuristic Evaluation":"http://www.nngroup.com/articles/ten-usability-heuristics/",
@@ -40,7 +40,7 @@
 		{
 			"name":"User Studies",
 			"description":"The best way to solve a problem is to solve the right problem. User studies like contextual inquiry, interviews and usability testing help bring out hidden flaws and identify opportunities for innovation.",
-			"type":"User Experience",
+			"type":"User Experience","key":"ux",
 			"Keywords":[],
 			"urls":{
 				"contextual inquiry":"http://www.usabilitynet.org/tools/contextualinquiry.htm"
@@ -49,7 +49,7 @@
 		{
 			"name":"Wireframing",
 			"description":"There comes a times when you have an epiphany and there comes a time when you have to show it to people so that they may see to believe. But you dont write code to do that. You wireframe, throw around ideas, crush some papers before you head on to burning the midnight oil.",
-			"type":"User Experience",
+			"type":"User Experience","key":"ux",
 			"Keywords":[],
 			"urls":{
 				"wireframe":"http://en.wikipedia.org/wiki/Website_wireframe"
@@ -58,7 +58,7 @@
 		{
 			"name":"Prototyping",
 			"description":"Websites wireframes are good. But sometimes you need more interaction than what a wireframe offers. I have built elaborate interactive paper prototypes(yes, interactive) and have also built prototypes using frameworks like Twitter Bootstrap and jQueryUI.",
-			"type":"User Experience",
+			"type":"User Experience","key":"ux",
 			"Keywords":[],
 			"urls":{
 			}
@@ -66,7 +66,7 @@
 		{
 			"name":"Bootstrap",
 			"description":"A prototyper's best friend. Ive used both Bootstrap 2.3 and Bootstrap 3.0 for conducting several online research studies at the IU Human Computer Interaction labs",
-			"type":"Prototyping",
+			"type":"Prototyping","key":"prototyping",
 			"Keywords":[],
 			"urls":{
 				"Bootstrap 2.3":"http://getbootstrap.com/2.3.2/",
@@ -76,7 +76,7 @@
 		{
 			"name":"Axure",
 			"description":"I was introduced to this beast when I joined my HCI program. I used it for a few class projects for creating prototypes. Its a pretty amazing tool and really got me into the hang of prototyping before programming.",
-			"type":"Prototyping",
+			"type":"Prototyping","key":"prototyping",
 			"Keywords":[],
 			"urls":{
 				"this beast":"http://www.axure.com/"
@@ -85,7 +85,7 @@
 		{
 			"name":"Inkscape",
 			"description":"Not many know about Inkscape, but its an amazing alternative to Adobe Illustrator for drawing svg graphics. Not as complicated and powerful, I agree, but very lightweight and has helped me get a lot of shit done. Respect.",
-			"type":"Design",
+			"type":"Design","key":"design",
 			"Keywords":["design"],
 			"urls":{
 				"Inkscape":"http://inkscape.org/"
@@ -94,7 +94,7 @@
 		{
 			"name":"Adobe Illustrator",
 			"description":"After a long stint with the Inkscape, I finally decided to learn some Adobe skills with this fantastic tool. And especially with the new HTML 5 canvas, vector graphics are certainly the way to go!",
-			"type":"Design",
+			"type":"Design","key":"design",
 			"Keywords":["design"],
 			"urls":{
 				"keyword":"http://www.adobe.com/products/illustrator.html"
@@ -103,7 +103,7 @@
 		{
 			"name":"GIMP",
 			"description":"This was the first graphic design tool that I started learning when I did not even know the difference between scalar and vector graphics. I am forever indebted to <b>Rolf Steinort</b> for his brilliant videos on using this powerful tool.",
-			"type":"Design",
+			"type":"Design","key":"design",
 			"Keywords":["design"],
 			"urls":{
 				"brilliant videos":"http://blog.meetthegimp.org/table-of-contents/"
@@ -112,7 +112,7 @@
 		{
 			"name":"JavaScript",
 			"description":"This baby cannot be ignored, at least not anymore. Now that my favorite programming language is making strides in the server side, there's only more love to come in the future. I wrote a few articles back in the day that were used by a reddit javascript learning group.",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"few articles":"http://mycodefixes.blogspot.in/p/series.html#nakedjavascript",
@@ -122,7 +122,7 @@
 		{
 			"name":"jQuery",
 			"description":"John Resig is just awesome. I use jQuery in combination with other frameworks to create both products and prototypes.",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"John Resig":"http://ejohn.org/"
@@ -131,7 +131,7 @@
 		{
 			"name":"jQueryUI",
 			"description":"Ive mostly used jQuery UI for its slider, draggable, droppable, and tabs components. I also wrote a tutorial on creating your own custom jquery UI widgets!",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"slider":"http://jqueryui.com/slider/",
@@ -144,7 +144,7 @@
 		{
 			"name":"Backbonejs",
 			"description":"I  have only lately begun to explore this amazing framework. I love the flexibility and structure it provides. I am still experimenting with it and plan to use it in my next project.",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"this amazing framework":"http://backbonejs.org/"
@@ -153,7 +153,7 @@
 		{
 			"name":"Underscorejs",
 			"description":"I keep finding more and more use of underscorejs as I tend to find more ways to rapidly prototype. Superb framework.",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"underscorejs":"http://underscorejs.org/"
@@ -162,7 +162,7 @@
 		{
 			"name":"Java",
 			"description":"The first programming language that I fell in love with. The second is JavaScript. Java is the language from where OOPS got ingrained into my thinking. <br/>Ain't it fun to code to interfaces? Hell yeah!",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":["server"],
 			"urls":{
 			}
@@ -170,7 +170,7 @@
 		{
 			"name":"J2EE",
 			"description":"Decided to learn JSP's and Servlets just out of my unfathomable curiosity. I never knew it would lead me to two more certification. Did it just to prove to myself that I know that shit at the back of my hand. <br/>I read the entire Sun Specification for EJB 3.0 and JPA back in 2009. That was cool!",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":["server"],
 			"urls":{
 			}
@@ -178,7 +178,7 @@
 		{
 			"name":"Nodejs",
 			"description":"Got a chance to play with this baby during my summer 2013 internship at Yahoo. Used it along with expressjs and dustjs to create the Yahoo finance mobile-web interface.",
-			"type":"Development",
+			"type":"Development","key":"development",
 			"Keywords":["server"],
 			"urls":{
 				"this baby":"http://nodejs.org/",
@@ -189,7 +189,7 @@
 		{
 			"name":"Nodepad++",
 			"description":"I have been using this editor for all my projects since 2009. Oh, and I am an avid Window's user. Lately I have heard some buzz about brackets, but I haven't taken the plunge(yet).",
-			"type":"Tools",
+			"type":"Tools","key":"tools",
 			"Keywords":["editor"],
 			"urls":{
 				"this editor":"http://notepad-plus-plus.org/",
@@ -199,7 +199,7 @@
 		{
 			"name":"WinSCP",
 			"description":"I have used this tool for remote sycnhronization all throughout my gradaute years and I kinda like the flexibility of options that it offers.",
-			"type":"Tools",
+			"type":"Tools","key":"tools",
 			"Keywords":["web"],
 			"urls":{
 				"this tool":"http://winscp.net/eng/index.php"
@@ -208,7 +208,7 @@
 		{
 			"name":"Dreamweaver",
 			"description":"Dreamweaver, I am sorry but - F**K you.",
-			"type":"Tools",
+			"type":"Tools","key":"tools",
 			"Keywords":["web"],
 			"urls":{
 				

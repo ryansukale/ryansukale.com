@@ -1,6 +1,7 @@
 $(function(){
 
-	var tmplHeading = $("#_tmplHeading").html();
+	var tmplHeading = $("#_tmplHeading").html(),
+	tmplSkillRow = $("#_tmplSkillRow").html();
 	
 	$.getJSON( "data/skills.json")
 		.done(function(response){
@@ -38,55 +39,17 @@ $(function(){
 			});
 			
 			_.each(config,function(settings, index, config){
-				var headingDtls = _.findWhere(headings, {"key":settings.key});
+				var headingDtls = _.findWhere(headings, {key:settings.key});
 				$('.heading',settings.$el).append(_.template(tmplHeading, headingDtls));
-			});
-			
-			
-		});
-	
-	
-	/*$.getJSON( "data/skills.json", function( skills ) {
-		
-		console.log(skills);
-		
-		//_.where(skills, {});
-		console.log(_.pluck(skills,'type'));
-		
-	});
-	
-	
-	var tmplJobRow = _.template($('#_tmplJobRow').html());
-	
-	$.getJSON( "data/experience.json", function( jobs ) {
-		
-		_.each(jobs,function(element, index, list){
-				var jobRow = tmplJobRow(element);
-				$('.job-details').append(jobRow);
-		});
-		
-		var propertyColors = _.pluck(jobs,'property-color'),
-		$jobs = $('.job'),
-		bgSelector = '.start, .separator, .end, .role',
-		borderSelector = '.org-name',
-		orgNameSelector = '.org-name';
-		
-		_.each(propertyColors, function(color,index,list){
-			$(bgSelector,$jobs.eq(index)).css({
-				'background-color':color
-			});
-			
-			$(orgNameSelector,$jobs.eq(index)).css({
-				'color':color
-			});
-			
-			$(borderSelector,$jobs.eq(index)).css({
-				'border-color':color
+				
+				var skillSet = _.where(skills, {key: settings.key});
+				
+				_.each(skillSet,function(skill, index, skillSet){
+					$('.skill-container>.grid-col',settings.$el).append(_.template(tmplSkillRow, skill));
+				});
+				
 			});
 			
 		});
-	
-	});
-	*/
 		
 });

@@ -111,12 +111,12 @@
 		},
 		{
 			"name":"JavaScript",
-			"description":"This baby cannot be ignored, at least not anymore. Now that my favorite programming language is making strides in the server side, there's only more love to come in the future. I wrote a few articles back in the day that were used by a reddit javascript learning group.",
+			"description":"This baby cannot be ignored, at least not anymore. Now that my favorite programming language is making strides in the server side, there's only more love to come in the future. I wrote a few articles back in the day that were used by a reddit javascript study group.",
 			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
 				"few articles":"http://mycodefixes.blogspot.in/p/series.html#nakedjavascript",
-				"reddit javascript learning group":"http://www.reddit.com/r/learnjavascript/comments/1c53ad/learn_js_properly_study_group_how_is_the_first/"
+				"reddit javascript study group":"http://www.reddit.com/r/learnjavascript/comments/1c53ad/learn_js_properly_study_group_how_is_the_first/"
 			}
 		},
 		{

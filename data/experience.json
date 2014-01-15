@@ -11,7 +11,7 @@
 		"startDateDisplay":"May 2013",
 		"endDate":"08-31-2013",
 		"endDateDisplay":"Aug 2013",
-		"summary":"Worked on the redesign of the Yahoo Finance mobile-website. <br/>The project was deployed in Nov 2013.",
+		"summary":"- Worked on the redesign of the Yahoo Finance mobile-website. <br/>- The project was deployed in Nov 2013.",
 		"keywords":["usability","prototyping","javascript","expressjs","nodejs"]
 	},
 	{
@@ -26,7 +26,7 @@
 		"startDateDisplay":"Feb 2013",
 		"endDate":"05-01-2014",
 		"endDateDisplay":"Present",
-		"summary":"Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by the NEH. <br/>Created instructional videos and conducted usability tests.",
+		"summary":"- Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by the NEH. <br/>- Created instructional videos and conducted usability tests.",
 		"keywords":["wireframing","usability","jquery","javascript","css"]
 	},
 	{
@@ -41,7 +41,7 @@
 		"startDateDisplay":"Aug 2012",
 		"endDate":"05-01-2014",
 		"endDateDisplay":"Present",
-		"summary":"Created interactive surveys to analyze the uncanny valley effect for research experiments. <br/>Created a hulu-like survey to conduct a ~20 day long participatory research experiment.",
+		"summary":"- Created interactive surveys to analyze the uncanny valley effect for research experiments. <br/>- Created a hulu-like survey to conduct a ~20 day long participatory research experiment.",
 		"keywords":["uncanny valley","jquery","javascript","mysql","php"]
 	},
 	{
@@ -56,7 +56,7 @@
 		"startDateDisplay":"March 2011",
 		"endDate":"07-31-2012",
 		"endDateDisplay":"July 2012",
-		"summary":"Implemented and deployed the Oracle Fusion Search. <br/>Implemented the front end of Oracle Fusion VSOE Revenue Management using ADF components. <br/>Conducted recruitment interviews.",
+		"summary":"- Implemented and deployed the Oracle Fusion Search. <br/>- Implemented the front end of Oracle Fusion VSOE Revenue Management using ADF components. <br/>- Conducted recruitment interviews.",
 		"keywords":["ADF","J2EE","Java","Oracle"]
 	},
 	{
@@ -71,7 +71,7 @@
 		"startDateDisplay":"Oct 2008",
 		"endDate":"03-28-2011",
 		"endDateDisplay":"March 2011",
-		"summary":"Created and deployed J2EE 8 web services for BSNL Telecom. Managed a team of 4. <br/>Conducted recruitment interviews. <br/>Conducted training sessions and handled offsite customer support",
+		"summary":"- Created and deployed 8 J2EE web services for BSNL Telecom. <br/>- Managed a team of 4. <br/>- Conducted recruitment interviews. <br/>- Conducted training sessions and handled offsite customer support",
 		"keywords":["J2EE","Servlets","KenanFX","Java","Web Services","Oracle"]
 	}
 ]

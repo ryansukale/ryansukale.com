@@ -84,3 +84,12 @@
 	color: white;
 	text-decoration: none;
 }
+
+.block-qualitifaction{
+	margin:10px auto;
+	width:300px;
+	font-size:1.2em;
+	color:#b0b0b0;
+	border-top:1px solid #dadada;
+	padding:5px 0px;
+}

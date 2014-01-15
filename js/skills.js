@@ -45,6 +45,14 @@ $(function(){
 				var skillSet = _.where(skills, {key: settings.key});
 				
 				_.each(skillSet,function(skill, index, skillSet){
+				
+					skill.updatedDesc = skill.description;
+
+					_.each(skill.urls,function(value, key, urls){
+						var wrappedKey = '<a class="b" href="'+value+'">' + key + '</a>';
+						skill.updatedDesc = skill.updatedDesc.replace(key,wrappedKey);
+					});
+				
 					$('.skill-container>.grid-col',settings.$el).append(_.template(tmplSkillRow, skill));
 				});
 				

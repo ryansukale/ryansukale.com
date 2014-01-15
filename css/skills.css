@@ -16,7 +16,7 @@
 .key{
 	font-size:1.5em;
 	font-family: 'Lato-light', sans-serif;
-	background-color:darkred;
+	background-color: rgb(74, 147, 255);
 	color:white;
 	padding:5px 0px;
 	/* border-radius:5px; */
@@ -61,4 +61,14 @@
 .overall-summary {
     color: #8982B4;
     font-size: 1.5em;
+}
+
+.skill:hover {
+	background-color: #F7F9FC;
+	border-color: #B7C4CC;
+	cursor:pointer;
+}
+.skill:hover .name {
+	/* color: #93A4D1; */
+	color:#8982B4;
 }

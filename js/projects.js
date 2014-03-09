@@ -3,7 +3,7 @@ $(function(){
 	
 	$.getJSON( "data/projects.json", function( projects ) {
 		
-		console.log(projects);
+		//console.log(projects);
 		
 		_.each(projects,function(element, index, list){
 				var projectRow = tmplProjectRow(element);

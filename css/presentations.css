@@ -1,0 +1,22 @@
+.ppt{
+    border-bottom: 1px solid #5B69C9;
+}
+
+.ppt-title{
+    /* border-bottom:1px solid #eaeaea; */
+    font-size:3em;
+		color: rgb(64, 133, 139);
+    padding:20px 0px !important;
+}
+
+
+.ppt-details{
+    padding-bottom:15px;
+}
+
+
+.heading, .description{
+    padding:5px;
+    font-size:1.2em;
+    list-style-position: inside;
+}

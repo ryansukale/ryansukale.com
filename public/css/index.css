@@ -15,7 +15,8 @@
 	border-bottom:1px solid #d0d0d0;
 }
 
-.tbl-keywords .keyword{
+.tbl-keywords .keyword {
+	letter-spacing: 2px;
 	padding:5px 10px;
 	margin:20px 5px;
 	background-color:#545454;

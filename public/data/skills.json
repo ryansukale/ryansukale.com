@@ -2,12 +2,12 @@
 	"headings":[
 		{
 			"title":"User Experience",
-			"titleDesc":"It is more important to deliver the right product than to simply deliver a product. I owe most of my usability/ux expertise to the projects that I did during my Master's program in Human Computer Interaction at Indiana University.",
+			"titleDesc":"User research and analysis helps you identify your customers needs and helps you fill the gaps before a competitor steals your loyal customers.",
 			"key":"ux"
 		},
 		{
 			"title":"Prototyping",
-			"titleDesc":"Design before you code. This has now become my motto. Early prototyping helps save significant amount of development time and effort.",
+			"titleDesc":"Design before you code. This has now become my motto. Early prototyping can help save significant amount of development time and effort.",
 			"key":"prototyping"
 		},
 		{
@@ -92,15 +92,6 @@
 			}
 		},
 		{
-			"name":"Adobe Illustrator",
-			"description":"After a long stint with the Inkscape, I finally decided to learn some Adobe skills with this fantastic tool. And especially with the new HTML 5 canvas, vector graphics are certainly the way to go!",
-			"type":"Design","key":"design",
-			"Keywords":["design"],
-			"urls":{
-				"keyword":"http://www.adobe.com/products/illustrator.html"
-			}
-		},
-		{
 			"name":"GIMP",
 			"description":"This was the first graphic design tool that I started learning when I did not even know the difference between scalar and vector graphics. I am forever indebted to <b>Rolf Steinort</b> for his brilliant videos on using this powerful tool.",
 			"type":"Design","key":"design",
@@ -120,8 +111,18 @@
 			}
 		},
 		{
+			"name":"React",
+			"description":"Reactive programming is relatively new in javascript. However, Reactjs - released by facebook, like many other frameworks has taken the front end developer by storm. At Yahoo, I work on React on a regular basis to build a really cool tablet/deskop interface.",
+			"type":"Development","key":"development",
+			"Keywords":[],
+			"urls":{
+				"Reactjs":"http://facebook.github.io/react/",
+				"Reactive programming":"http://en.wikipedia.org/wiki/Reactive_programming"
+			}
+		},
+		{
 			"name":"jQuery",
-			"description":"John Resig is just awesome. I use jQuery in combination with other frameworks to create both products and prototypes.",
+			"description":"John Resig is just awesome. I have used jQuery in the past in combination with other frameworks to create both products and prototypes.",
 			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
@@ -142,21 +143,12 @@
 			}
 		},
 		{
-			"name":"Backbonejs",
-			"description":"I  have only lately begun to explore this amazing framework. I love the flexibility and structure it provides. I am still experimenting with it and plan to use it in my next project.",
+			"name":"lodash",
+			"description":"Built as a better performant underscore, I keep finding more and more use of lodash as I tend to find more ways to rapidly prototype. Superb framework.",
 			"type":"Development","key":"development",
 			"Keywords":[],
 			"urls":{
-				"this amazing framework":"http://backbonejs.org/"
-			}
-		},
-		{
-			"name":"Underscorejs",
-			"description":"I keep finding more and more use of underscorejs as I tend to find more ways to rapidly prototype. Superb framework.",
-			"type":"Development","key":"development",
-			"Keywords":[],
-			"urls":{
-				"underscorejs":"http://underscorejs.org/"
+				"lodash":"https://github.com/lodash/lodash"
 			}
 		},
 		{
@@ -187,31 +179,12 @@
 			}
 		},
 		{
-			"name":"Nodepad++",
-			"description":"I have been using this editor for all my projects since 2009. Oh, and I am an avid Window's user. Lately I have heard some buzz about brackets, but I haven't taken the plunge(yet).",
+			"name":"SublimeText",
+			"description":"An amazing lightweight editor with a tonne of plugins, perfect for writing javascript.",
 			"type":"Tools","key":"tools",
 			"Keywords":["editor"],
 			"urls":{
-				"this editor":"http://notepad-plus-plus.org/",
-				"brackets":"http://brackets.io/"
-			}
-		},
-		{
-			"name":"WinSCP",
-			"description":"I have used this tool for remote sycnhronization all throughout my gradaute years and I kinda like the flexibility of options that it offers.",
-			"type":"Tools","key":"tools",
-			"Keywords":["web"],
-			"urls":{
-				"this tool":"http://winscp.net/eng/index.php"
-			}
-		},
-		{
-			"name":"Dreamweaver",
-			"description":"Dreamweaver, I am sorry but - F**K you.",
-			"type":"Tools","key":"tools",
-			"Keywords":["web"],
-			"urls":{
-				
+				"lightweight editor":"http://www.sublimetext.com/"
 			}
 		}
 	]

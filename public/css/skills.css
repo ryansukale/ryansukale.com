@@ -8,15 +8,14 @@
 }
 
 
-.ux,.prototyping,.design,.development,.tools{
-	border-bottom: 1px solid #5E88B6;
+.ux,.prototyping,.design,.development,.tools {
 	overflow:auto;
 }
 
 .key{
 	font-size:1.5em;
 	font-family: 'Lato-light', sans-serif;
-	background-color: rgb(74, 147, 255);
+	background-color: #7194D5;
 	color:white;
 	padding:5px 0px;
 	/* border-radius:5px; */
@@ -26,18 +25,18 @@
 .key-desc{
 	text-align:justify;
 	padding:5px 15px 0px 10px;
+	font-size: 1.2em;
 }
 
 .heading{
-	border-bottom: 1px solid #dadada;
-	padding:5px;
+	border-top: 10px solid #7194D5;
 	overflow:auto;
-	background-color:#eaeaea;
+	letter-spacing: 1px;
 }
 
 .skill{
 	margin-top:5px;
-	border-radius:5px;
+	border-radius:2px;
 	border:1px solid #dadada;
 	margin:5px;
 }
@@ -45,7 +44,7 @@
 
 .skill .name{
 	font-size: 2em;
-	padding: 10px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
 	text-align:center;
 }
 
@@ -53,14 +52,15 @@
 .skill .description{
 	font-size: 1.4em;
 	/* font-weight: bold; */
-	padding: 5px 20px 10px 20px;
+	padding: 10px 20px 10px 20px;
 	font-family: 'Lato-light', sans-serif;
 	color: #4E4E4E;
 }
 
 .overall-summary {
-    color: #8982B4;
-    font-size: 1.5em;
+  color: #8982B4;
+	font-size: 3em;
+	margin: 30px 0px;
 }
 
 .skill:hover {

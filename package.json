@@ -1,6 +1,6 @@
 {
   "name": "ryansukale.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "nodemon app.js"
@@ -16,6 +16,6 @@
     "morgan":"*"
   },
   "devDependencies":{
-          "nodemon": "*"
+    "nodemon": "*"
   }
 }

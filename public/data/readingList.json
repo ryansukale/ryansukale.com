@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Universal Principles of Design",
+    "status": 0,
+    "finishDate": "Ongoing",
+    "imgUrl": "./images/readingList/universal_principles_of_design.jpg",
+    "authors": [
+      "William Lidwell",
+      "Kritina Holden",
+      "Jill Butler"
+    ]
+  },
+  {
+    "title": "100 things every designer should know about people",
+    "status": 1,
+    "finishDate": "Mar 2015",
+    "imgUrl": "./images/readingList/100_things_every_designer_should_know_about_people.jpg",
+    "authors": [
+      "Susan Weinschenk"
+    ]
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "status": 1,
+    "finishDate": "Apr 2014",
+    "imgUrl": "./images/readingList/the_design_of_everyday_things.jpg",
+    "authors": [
+      "Donald Norman"
+    ]
+  },
+  {
+    "title": "Don’t make me think",
+    "status": 1,
+    "finishDate": "Mar 2014",
+    "imgUrl": "./images/readingList/dont_make_me_think.jpg",
+    "authors": [
+      "Steve Krug"
+    ]
+  },
+  {
+    "title": "The inmates are running the asylum",
+    "status": 1,
+    "finishDate": "Mar 2014",
+    "imgUrl": "./images/readingList/the_inmates_are_running_the_asylum.jpg",
+    "authors": [
+      "Alan Cooper"
+    ]
+  },
+  {
+    "title": "Where the Action Is: The Foundations of Embodied Interaction",
+    "status": 1,
+    "finishDate": "Feb 2014",
+    "imgUrl": "./images/readingList/where_the_action_is_the_foundations_of_embodied_interaction.jpg",
+    "authors": [
+      "Paul Dourish"
+    ]
+  },
+  {
+    "title": "101 Design Methods",
+    "status": 1,
+    "finishDate": "Dec 2013",
+    "imgUrl": "./images/readingList/101_design_methods.jpg",
+    "authors": [
+      "Vijay Kumar"
+    ]
+  },
+  {
+    "title": "Paper Prototyping",
+    "status": 1,
+    "finishDate": "Nov 2013",
+    "imgUrl": "./images/readingList/paper_prototyping.jpg",
+    "authors": [
+      "Carolyn Snyder"
+    ]
+  },
+  {
+    "title": "Universal Methods of Design: 100 Ways to Research Complex Problems",
+    "status": 1,
+    "finishDate": "Nov 2013",
+    "imgUrl": "./images/readingList/universal_methods_of_design_100_ways_to_research_complex_problems.jpg",
+    "authors": [
+      "Bruce Hanington", "Bella Martin"
+    ]
+  }
+]

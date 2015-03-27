@@ -17,11 +17,25 @@
 
 .tbl-keywords .keyword {
 	letter-spacing: 2px;
-	padding:5px 10px;
 	margin:20px 5px;
-	background-color:#545454;
-	color:white;
-	border-radius:2px;
+	border-radius:4px;
+	border: 2px solid rgb(118, 118, 194);
+}
+
+.tbl-keywords .keyword:hover {
+	border-color: rgb(208, 204, 204);
+}
+
+.tbl-keywords .keyword a {
+	text-decoration: none;
+	color: black;
+	display:inline-block;
+	padding: 6px 12px;
+}
+
+.tbl-keywords .keyword a:hover {
+	text-decoration: none;
+	color: rgb(118, 118, 194);
 }
 
 .tbl-connections{
@@ -90,7 +104,8 @@
 	margin:10px auto;
 	width:300px;
 	font-size:1.2em;
-	color:#b0b0b0;
-	border-top:1px solid #dadada;
-	padding:5px 0px;
+	color: #4C4C4C;
+	border-top: 1px solid #dadada;
+	padding: 5px 0px;
+	letter-spacing: 1px;
 }

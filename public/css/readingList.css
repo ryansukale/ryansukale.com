@@ -1,0 +1,33 @@
+.overall-summary {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 2.0em;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  color: #8982B4;
+}
+
+.reading-list ul {
+  list-style: none;
+}
+
+.reading-list li {
+  padding: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+.reading-list img {
+  width: 150px;
+  height: 200px;
+}
+
+.reading-list .book-title {
+  margin-top: 10px;
+}
+
+.reading-list .finish-date {
+  margin-top: 10px;
+}

@@ -1,23 +1,5 @@
 [
 	{
-		"title":"Chacha",
-		"summary":"The project is redesign proposal for the Chacha mobile app. It involved applying the priciples of contextual inquiry for a 2 week period, eliciting user requirements through a feedback loop and then redesigning the app based upon the findings.",
-		"downloadURL":"https://app.box.com/s/klg10yrrbmgelq3o2jqn",
-		"methodology": {
-			"points":[
-				"Contextual Enquiry - email based 2 week journal study, 6 participants",
-				"Conceptual Modeling",
-				"Diagramming - Affinity, Structural, Cultural, Sequence, Artifact",
-				"Application of the Interactive Dialogue Model(IDM) design methodology for interaction design",
-				"Paper prototyping",
-				"High fidelity prototyping (using Axure/Inkscape)",
-				"Usability testing of the HIFI prototype"
-			],
-			"keywords":[]
-		},
-		"deliverable":"A prototype of the iPhone app for Chacha with a revamped workflow model"
-	},
-	{
 		"title":"Youtube",
 		"summary":"The project involved conducting a usability evaluation of youtube's user interface from the perspective of a content contributor/uploader.",
 		"downloadURL":"https://app.box.com/s/bx8wfxg6amalsn468le4",
@@ -34,6 +16,41 @@
 			"keywords":[]
 		},
 		"deliverable":"A comprehensive usability report enlisting the usability flaws in Youtube's interface based upon its heuristic evaluation and cognitive walkthrough."
+	},
+	{
+		"title":"RoamWithMe",
+		"summary":"The project aimed to develop a prototype for a system that facilitates Computer Supported Collaborative Work (CSCW). The project involved prototyping a smartphone application that helps travelers create their own local networks with fellow travelers, facilitating flow of information, connection with local brands, and geo location sharing within local networks",
+		"downloadURL":"https://app.box.com/s/bcd8mg6alziqomyec8mk",
+		"methodology": {
+			"points":[
+				"Conceptual Modeling",
+				"Personas and Scenario creation",
+				"User Research interviews",
+				"Interaction design",
+				"High Fidelity Prototyping (using Axure/Inkscape)",
+				"Usability survey and evaluation of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A high fidelity prototype of the smartphone travel app that simulated the interaction and user experience of a real application and a usability report describing the methodologies applied."
+	},
+	{
+		"title":"Chacha",
+		"summary":"The project is redesign proposal for the Chacha mobile app. It involved applying the priciples of contextual inquiry for a 2 week period, eliciting user requirements through a feedback loop and then redesigning the app based upon the findings.",
+		"downloadURL":"https://app.box.com/s/klg10yrrbmgelq3o2jqn",
+		"methodology": {
+			"points":[
+				"Contextual Enquiry - email based 2 week journal study, 6 participants",
+				"Conceptual Modeling",
+				"Diagramming - Affinity, Structural, Cultural, Sequence, Artifact",
+				"Application of the Interactive Dialogue Model(IDM) design methodology for interaction design",
+				"Paper prototyping",
+				"High fidelity prototyping (using Axure/Inkscape)",
+				"Usability testing of the HIFI prototype"
+			],
+			"keywords":[]
+		},
+		"deliverable":"A prototype of the iPhone app for Chacha with a revamped workflow model"
 	},
 	{
 		"title":"IndyTracker",
@@ -70,23 +87,6 @@
 			"keywords":[]
 		},
 		"deliverable":"An interactive high fidelity prototype simulating the different screens and interactions within the app and a report describing the design methodologies that were applied."
-	},
-	{
-		"title":"RoamWithMe",
-		"summary":"The project aimed to develop a prototype for a system that facilitates Computer Supported Collaborative Work (CSCW). The project involved prototyping a smartphone application that helps travelers create their own local networks with fellow travelers, facilitating flow of information, connection with local brands, and geo location sharing within local networks",
-		"downloadURL":"https://app.box.com/s/bcd8mg6alziqomyec8mk",
-		"methodology": {
-			"points":[
-				"Conceptual Modeling",
-				"Personas and Scenario creation",
-				"User Research interviews",
-				"Interaction design",
-				"High Fidelity Prototyping (using Axure/Inkscape)",
-				"Usability survey and evaluation of the HIFI prototype"
-			],
-			"keywords":[]
-		},
-		"deliverable":"A high fidelity prototype of the smartphone travel app that simulated the interaction and user experience of a real application and a usability report describing the methodologies applied."
 	},
 	{
 		"title":"Formulate - A Sifteo Cubes Game",

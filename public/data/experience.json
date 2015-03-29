@@ -12,7 +12,7 @@
 		"endDate":"Present",
 		"endDateDisplay":"Present",
 		"summary":"Building a new Yahoo finance tablet/desktop experience",
-		"keywords":["usability","prototyping","javascript","Reactjs", "Flux"]
+		"keywords":["Reactjs", "Flux", "javascript", "interactions", "usability","prototyping"]
 	},
 	{
 		"displayName":"Yahoo",

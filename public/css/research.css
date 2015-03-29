@@ -9,15 +9,20 @@
 }
 
 .research-item {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #dadada;
     margin-top: 20px;
+}
+
+.downloads {
+  margin-top: 4px;
 }
 
 .paper-title {
     font-size: 1.8em;
     padding-bottom: 10px;
     border-bottom: 1px solid #dadada;
+    color: #8982B4;
 }
 
 .downloads-and-teaser {

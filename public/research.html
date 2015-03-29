@@ -97,70 +97,7 @@
 	<div class="container">
 
 		<div class="research">
-			<div class="research-item row">
 
-				<div class="downloads-and-teaser inb">
-					<div class="teaser">
-						<img src="./images/research/preview_proxemic_web.png" alt="">
-						<div class="downloads">
-
-							<a href="https://app.box.com/s/vlmsi2jdpee2gkpokblzk448i3snxpht"
-								class="download-item inb">
-								<span>Poster</span>
-								<span class="glyphicon glyphicon-cloud-download"></span>
-							</a>
-
-							<a href="https://app.box.com/s/93a7jrdhbou4v10kehu6wsj08htpwu4s"
-								class="download-item inb">
-								<span>Paper</span>
-								<span class="glyphicon glyphicon-cloud-download"></span>
-							</a>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="paper-details">
-					<div class="paper-title">
-						The proxemic web: designing for proxemic interactions with responsive web design
-					</div>
-
-					<div class="summary">
-						What if your dekstop would behave like a smartphone depending on your spacial orientation and distance to it? <br/><br/> This paper flips the concept of responsive web design over its heel and describes a prototypical system where an ordinary desktop enhanced with physical space awareness, begins to exhibit 'reverse responsive' capabilities.
-					</div>
-
-					<div class="conference metadata">
-						<div class="title inb">
-							Conference
-						</div>
-						<div class="details inb">Ubicomp 2014</div>
-					</div>
-
-					<div class="authors metadata">
-						<div class="title inb">
-							Authors
-						</div>
-						<div class="details inb">
-							Ryan Sukale, Stephen Voida, Olesia Koval
-						</div>
-					</div>
-
-					<div class="publication metadata">
-						<div class="title inb">Publication</div>
-						<div class="details inb">
-							<a href="http://dl.acm.org/citation.cfm?id=2581263">
-								Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing
-							</a>
-						</div>
-					</div>
-
-					<div class="publisherUrl metadata">
-						<div class="title inb"></div>
-						<div class="details inb"></div>
-					</div>
-				</div>
-
-			</div>
 		</div
 
 	</div>
@@ -197,8 +134,69 @@
 	<script src="js/research.js"></script>
 
 
-	<script type="text/javascript" id="_tmplSkillRow">
+	<script type="text/javascript" id="_tmplResearchRow">
+		<div class="research-item row">
 
+			<div class="downloads-and-teaser inb">
+				<div class="teaser">
+					<img src="<%=preview%>" alt="">
+					<div class="downloads">
+
+						<a href="<%=downloads.poster%>"
+							class="download-item inb">
+							<span>Full Poster</span>
+							<span class="glyphicon glyphicon-cloud-download"></span>
+						</a>
+
+						<a href="<%=downloads.paper%>"
+							class="download-item inb">
+							<span>Paper</span>
+							<span class="glyphicon glyphicon-cloud-download"></span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="paper-details">
+				<div class="paper-title">
+					<%=title%>
+				</div>
+
+				<div class="summary">
+					<%=summary%>
+				</div>
+
+				<div class="conference metadata">
+					<div class="title inb">
+						Conference
+					</div>
+					<div class="details inb">
+						<%=conference%> <%=year%>
+					</div>
+				</div>
+
+				<div class="authors metadata">
+					<div class="title inb">
+						Authors
+					</div>
+					<div class="details inb">
+						<%=authors.join(', ')%>
+					</div>
+				</div>
+
+				<div class="publication metadata">
+					<div class="title inb">Publication</div>
+					<div class="details inb">
+						<a href="<%=publication.url%>">
+							<%=publication.title%>
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
 	</script>
 
 	<script type="text/javascript">

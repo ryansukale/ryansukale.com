@@ -8,7 +8,7 @@
     "Keywords": [
       "proxemic interactions", "responsive web design", "touchless interactions", "ubiquitous computing"
     ],
-    "description": "What if your dekstop would behave like a smartphone depending on your spacial orientation and distance to it? This paper flips the concept of responsive web design over its heel and describes a prototypical system where an ordinary desktop enhanced with physical space awareness, begins to exhibit 'reverse responsive' capabilities.",
+    "summary": "What if your dekstop would behave like a smartphone depending on your spacial orientation and distance to it? <br></br> This paper flips the concept of responsive web design over its heel and describes a prototypical system where an ordinary desktop enhanced with physical space awareness, begins to exhibit 'reverse responsive' capabilities.",
     "publication": {
       "title": "Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
       "url": "http://dl.acm.org/citation.cfm?id=2581263"
@@ -28,7 +28,7 @@
     "Keywords": [
       "cscw", "knowledge graph", "software documentation", "collaboration software"
     ],
-    "description": "What if you never lost a conversation you had with your colleagues. What if never had to search massive conversations for the bits of information that matter to you. This paper describes a system - QuoDocs - that enables you to record verbal and writen conversations, directly from within the browser to collaborate and retrieve historical conversations in a snap second.",
+    "summary": "What if you never lost a conversation you had with your colleagues. What if never had to search massive conversations for the bits of information that matter to you. <br></br> This paper describes a system - QuoDocs - that enables you to record verbal and writen conversations, directly from within the browser to collaborate and retrieve historical conversations in a snap second.",
     "publication": {
       "title": "CHI 2014 Extended Abstracts on Human Factors in Computing Systems",
       "url": "http://dl.acm.org/citation.cfm?id=2638768"

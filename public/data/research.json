@@ -1,0 +1,43 @@
+[
+  {
+    "title": "The proxemic web: designing for proxemic interactions with responsive web design.",
+    "conference": "Ubicomp",
+    "location": "Toronto, Canada",
+    "year": "2014",
+    "authors": ["Ryan Sukale","Stephen Voida", "Olesia Koval"],
+    "Keywords": [
+      "proxemic interactions", "responsive web design", "touchless interactions", "ubiquitous computing"
+    ],
+    "description": "What if your dekstop would behave like a smartphone depending on your spacial orientation and distance to it? This paper flips the concept of responsive web design over its heel and describes a prototypical system where an ordinary desktop enhanced with physical space awareness, begins to exhibit 'reverse responsive' capabilities.",
+    "publication": {
+      "title": "Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+      "url": "http://dl.acm.org/citation.cfm?id=2581263"
+    },
+    "preview": "./images/research/preview_proxemic_web.png",
+    "downloads": {
+      "poster":"https://app.box.com/s/vlmsi2jdpee2gkpokblzk448i3snxpht",
+      "paper": "https://app.box.com/s/93a7jrdhbou4v10kehu6wsj08htpwu4s"
+    },
+    "specialNote": ""
+  },
+  {
+    "title": "QuoDocs: improving developer engagement in software documentation through gamification.",
+    "conference": "CHI",
+    "year": "2014",
+    "authors": ["Ryan Sukale", "Mark S. Pfaff"],
+    "Keywords": [
+      "cscw", "knowledge graph", "software documentation", "collaboration software"
+    ],
+    "description": "What if you never lost a conversation you had with your colleagues. What if never had to search massive conversations for the bits of information that matter to you. This paper describes a system - QuoDocs - that enables you to record verbal and writen conversations, directly from within the browser to collaborate and retrieve historical conversations in a snap second.",
+    "publication": {
+      "title": "CHI 2014 Extended Abstracts on Human Factors in Computing Systems",
+      "url": "http://dl.acm.org/citation.cfm?id=2638768"
+    },
+    "preview": "./images/research/preview_quodocs.png",
+    "downloads": {
+      "poster":"https://app.box.com/s/b4545jry77vv1cg9oqfqswyuw3zkddqq",
+      "paper": "https://app.box.com/s/ph3g3jt0re6o1ewckwl0juhmxy73ol20"
+    },
+    "specialNote": "This paper was a precursor to popular apps like 'HipChat' and 'Slack'"
+  }
+]

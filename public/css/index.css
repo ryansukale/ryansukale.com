@@ -32,16 +32,11 @@
 	color: rgb(136, 136, 136);
 }
 
-.tbl-keywords .keyword a {
-	/*text-decoration: none;
-	color: black;
-	display:inline-block;
-	padding: 6px 12px;*/
-}
-
-.tbl-keywords .keyword a:hover {
-	/*text-decoration: none;
-	color: rgb(118, 118, 194);*/
+.current {
+	width: 100px;
+	margin: 10px auto;
+	padding: 0px 0px 10px;
+	border-bottom: 1px solid #dadada;
 }
 
 .tbl-connections{

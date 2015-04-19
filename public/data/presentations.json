@@ -1,12 +1,17 @@
 [
 	{
-		"title":"jQuery - An Introduction",
-		"summary":"jQuery, one of the most widely adopted javascript frameworks is not just powerful but also diverse in functionality. In this presentation, I summarize the key features in the jQuery library that you will find yourself using more often than you think.",
-		"embed_code":"ecafbae08964013139980215d6758fd9"
+		"title":"Ubiquitous Computing - Privacy and Ethical issues",
+		"summary":"With an exponential increase in computing devices, privacy becomes a major concern. With technology progressively moving towards the internet of things personal space and data are being collected on a scale never before seen in the history of mankind.",
+		"embed_code":"7a465efcb7ad44dd8fefd01ec584201f"
 	},
 	{
 		"title":"Responsive Web Design - A Primer",
 		"summary":"Browsers are more than likely to be the future of ubiquitous computing interfaces for a long time to come. Without responsive web design, we would be fighting a lost battle. In this presentation, I give a brief overview of responsive web design, enough to learn about the reason for its existence and tools that can help you get started.",
 		"embed_code":"e17b270087ea01318897164c1d05617a"
+	},
+	{
+		"title":"jQuery - An Introduction",
+		"summary":"jQuery, one of the most widely adopted javascript frameworks is not just powerful but also diverse in functionality. In this presentation, I summarize the key features in the jQuery library that you will find yourself using more often than you think.",
+		"embed_code":"ecafbae08964013139980215d6758fd9"
 	}
 ]

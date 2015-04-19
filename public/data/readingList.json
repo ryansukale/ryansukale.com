@@ -1,8 +1,37 @@
 [
   {
-    "title": "Universal Principles of Design",
+    "title": "Seductive Interaction Design",
     "status": 0,
     "finishDate": "Ongoing",
+    "startDate": "19 Apr 2015",
+    "imgUrl": "./images/readingList/seductive_interaction_design.jpg",
+    "authors": [
+      "Stephen P. Anderson"
+    ]
+  },
+  {
+    "title": "Lean UX",
+    "status": 1,
+    "finishDate": "Apr 2015",
+    "finishDay": "19",
+    "imgUrl": "./images/readingList/lean_ux.jpg",
+    "authors": [
+      "Jeff Gothelf"
+    ]
+  },
+  {
+    "title": "Emotional Design",
+    "status": 1,
+    "finishDate": "Apr 2015",
+    "imgUrl": "./images/readingList/emotional_design.jpg",
+    "authors": [
+      "Donald Norman"
+    ]
+  },
+  {
+    "title": "Universal Principles of Design",
+    "status": 1,
+    "finishDate": "Mar 2015",
     "imgUrl": "./images/readingList/universal_principles_of_design.jpg",
     "authors": [
       "William Lidwell",
@@ -80,6 +109,15 @@
     "imgUrl": "./images/readingList/universal_methods_of_design_100_ways_to_research_complex_problems.jpg",
     "authors": [
       "Bruce Hanington", "Bella Martin"
+    ]
+  },
+  {
+    "title": "Beyond Human Computer Interaction",
+    "status": 1,
+    "finishDate": "Dec 2012",
+    "imgUrl": "./images/readingList/beyond_human_computer_interaction.jpg",
+    "authors": [
+      "Jenny Preece"
     ]
   }
 ]

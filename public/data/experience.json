@@ -6,12 +6,12 @@
 		"icon":"yahoo.png",
 		"team":"Yahoo Finance - Front End",
 		"property-color":"#915ED1",
-		"role":"Ux/Dev",
+		"role":"UX / Front End",
 		"startDate":"06-02-2015",
 		"startDateDisplay":"June 2014",
 		"endDate":"Present",
 		"endDateDisplay":"Present",
-		"summary":"Building a new Yahoo finance tablet/desktop experience",
+		"summary":"- Usability - Cognitive walkthroughs, Heuristic evaluations and accessibility <br /> - Wireframing and prototyping <br /> - Using Axure/Prototyper/Indigo Studio + Inkscape<br /> - Implementing the Yahoo finance home page and portfolio pages from scratch.<br /> - Using a tech stack of Fluxible app, Webpack, REST, SASS and Atomic CSS.",
 		"keywords":["Reactjs", "Flux", "javascript", "interactions", "usability","prototyping"]
 	},
 	{
@@ -34,7 +34,7 @@
 		"orgFullName":"IUPUI - Institute of American Thought",
 		"orgShortName":"IUPUI IAT",
 		"icon":"iupui.png",
-		"role":"Usability, UX & Front End Developer",
+		"role":"UX / IA & Front End",
 		"team":"Peirce Edition Project",
 		"property-color":"#770F0F",
 		"startDate":"02-01-2013",

@@ -35,3 +35,13 @@
 .project-title {
     color: rgb(64, 133, 139);
 }
+
+.report {
+    border: none;
+    background-color: #5287BD;
+    letter-spacing: 1px;
+}
+
+.report:hover {
+    background-color: #FF7878;
+}

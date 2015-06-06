@@ -1,5 +1,7 @@
 .introduction{
 	font-size:500%;
+	color: #777777;
+	margin-top: 15px;
 }
 
 .tagline{
@@ -8,15 +10,10 @@
 }
 
 .block-keywords .block-title {
-	color: #a0a0a0;
+	color: #898989;
 }
 
-.tbl-keywords{
-	margin:auto;
-	border-bottom:1px solid #d0d0d0;
-}
-
-.tbl-keywords .keyword {
+.block-keywords .keyword {
 	letter-spacing: 2px;
 	margin: 10px 5px 20px;
 	border-radius:2px;
@@ -24,19 +21,19 @@
 	color: black;
 	display:inline-block;
 	padding: 8px;
-	background: #4AA3D1;
+	background: #5287BD;
 	border-radius: 2px;
 	width: 220px;
 	text-align: center;
 	color: #fff;
 }
 
-.tbl-keywords .keyword:hover {
+.block-keywords .keyword:hover {
 	text-decoration: none;
 	background-color: #FF7878;
 }
 
-.tbl-keywords .keyword .fa-external-link-square {
+.block-keywords .keyword .fa-external-link-square {
 	color: #fff;
 }
 
@@ -100,6 +97,10 @@
 	width:100%;
 	padding:10px 5px;
 	background-color:#F7F7F7;
+}
+
+.block-connections {
+	border-top: 1px solid #dadada;
 }
 
 .block-connections .xs a:hover{

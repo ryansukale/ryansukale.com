@@ -1,13 +1,14 @@
 .introduction{
 	font-size:500%;
-	font-family: 'Lato-light', sans-serif;
-	border-bottom:1px solid #d0d0d0;
 }
 
 .tagline{
 	font-size:400%;
-	font-family: 'Lato-light', sans-serif;
 	color:#8982B4;
+}
+
+.block-keywords .block-title {
+	color: #a0a0a0;
 }
 
 .tbl-keywords{
@@ -17,26 +18,32 @@
 
 .tbl-keywords .keyword {
 	letter-spacing: 2px;
-	margin:20px 5px;
-	border-radius:4px;
-	border: 2px solid rgb(82, 118, 194);
+	margin: 10px 5px 20px;
+	border-radius:2px;
 	text-decoration: none;
 	color: black;
 	display:inline-block;
-	padding: 6px 12px;
+	padding: 8px;
+	background: #4AA3D1;
+	border-radius: 2px;
+	width: 220px;
+	text-align: center;
+	color: #fff;
 }
 
 .tbl-keywords .keyword:hover {
 	text-decoration: none;
-	border-color: rgb(216, 162, 109);
-	color: rgb(136, 136, 136);
+	background-color: #FF7878;
+}
+
+.tbl-keywords .keyword .fa-external-link-square {
+	color: #fff;
 }
 
 .current {
 	width: 100px;
 	margin: 10px auto;
 	padding: 0px 0px 10px;
-	border-bottom: 1px solid #dadada;
 }
 
 .tbl-connections{
@@ -109,4 +116,8 @@
 	border-top: 1px solid #dadada;
 	padding: 5px 0px;
 	letter-spacing: 1px;
+}
+
+.block-keywords {
+	border-top: 1px solid #dadada;
 }

@@ -1,9 +1,19 @@
 [
   {
-    "title": "Seductive Interaction Design",
+    "title": "Designing For The Social Web",
     "status": 0,
     "finishDate": "Ongoing",
+    "startDate": "June 2015",
+    "imgUrl": "./images/readingList/designing_for_the_social_web.jpg",
+    "authors": [
+      "Joshua Porter"
+    ]
+  },
+  {
+    "title": "Seductive Interaction Design",
+    "status": 1,
     "startDate": "19 Apr 2015",
+    "finishDate": "May 2015",
     "imgUrl": "./images/readingList/seductive_interaction_design.jpg",
     "authors": [
       "Stephen P. Anderson"

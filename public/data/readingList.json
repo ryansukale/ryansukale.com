@@ -1,8 +1,18 @@
 [
   {
-    "title": "Designing For The Social Web",
+    "title": "Thinking Fast and Slow",
     "status": 0,
     "finishDate": "Ongoing",
+    "startDate": "Nov 2015",
+    "imgUrl": "./images/readingList/thinking_fast_and_slow.jpg",
+    "authors": [
+      "Daniel Kahneman"
+    ]
+  },
+  {
+    "title": "Designing For The Social Web",
+    "status": 1,
+    "finishDate": "July 2015",
     "startDate": "June 2015",
     "imgUrl": "./images/readingList/designing_for_the_social_web.jpg",
     "authors": [

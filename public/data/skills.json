@@ -141,51 +141,6 @@
 				"tabs":"http://jqueryui.com/tabs/",
 				"a tutorial":"http://mycodefixes.blogspot.com/2010/11/jquery-creating-custom-widget.html"
 			}
-		},
-		{
-			"name":"lodash",
-			"description":"Built as a better performant underscore, I keep finding more and more use of lodash as I tend to find more ways to rapidly prototype. Superb framework.",
-			"type":"Development","key":"development",
-			"Keywords":[],
-			"urls":{
-				"lodash":"https://github.com/lodash/lodash"
-			}
-		},
-		{
-			"name":"Java",
-			"description":"The first programming language that I fell in love with. The second is JavaScript. Java is the language from where OOPS got ingrained into my thinking. <br/>Ain't it fun to code to interfaces? Hell yeah!",
-			"type":"Development","key":"development",
-			"Keywords":["server"],
-			"urls":{
-			}
-		},
-		{
-			"name":"J2EE",
-			"description":"Decided to learn JSP's and Servlets just out of my unfathomable curiosity. I never knew it would lead me to two more certification. Did it just to prove to myself that I know that shit at the back of my hand. <br/>I read the entire Sun Specification for EJB 3.0 and JPA back in 2009. That was cool!",
-			"type":"Development","key":"development",
-			"Keywords":["server"],
-			"urls":{
-			}
-		},
-		{
-			"name":"Nodejs",
-			"description":"Got a chance to play with this baby during my summer 2013 internship at Yahoo. Used it along with expressjs and dustjs to create the Yahoo finance mobile-web interface.",
-			"type":"Development","key":"development",
-			"Keywords":["server"],
-			"urls":{
-				"this baby":"http://nodejs.org/",
-				"expressjs":"http://expressjs.com/",
-				"dustjs":"https://github.com/linkedin/dustjs"
-			}
-		},
-		{
-			"name":"SublimeText",
-			"description":"An amazing lightweight editor with a tonne of plugins, perfect for writing javascript.",
-			"type":"Tools","key":"tools",
-			"Keywords":["editor"],
-			"urls":{
-				"lightweight editor":"http://www.sublimetext.com/"
-			}
 		}
 	]
 }

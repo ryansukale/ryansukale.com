@@ -1,22 +1,27 @@
+.navbar.navbar-inverse {
+  box-shadow: 1px 0px 5px 2px #ccc;
+}
+
 .navbar-inverse .navbar-nav>li>a {
-  color: rgb(250, 213, 116);
+  color: #665 !important ;
   letter-spacing: 1px;
 }
 
 .navbar-brand span {
   font-weight: bold;
   letter-spacing: 1px;
-  color: #fff;
+  color: #444;
 }
 
 .navbar-brand {
   border-right: 2px solid #fff;
+  padding: 15px 0px 15px 5px;
 }
 
 .navbar {
-  background-color: #5287BD;
-  border-color: #C3D2E8;
-  border-bottom-width: 4px;
+  background-color: #fff;
+  border: none;
+  border-bottom-width: 1px;
 }
 
 .navbar a {
@@ -24,8 +29,8 @@
   font-weight: bold;
 }
 
-.navbar a:hover {
-  background-color: #6E6E6E !important;
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #D6D6D6 !important;
 }
 
 .love {
@@ -33,7 +38,7 @@
 }
 
 .navbar .active>a {
-  background-color: #6E6E6E !important;
+  background-color: #D6D6D6 !important;
 }
 
 

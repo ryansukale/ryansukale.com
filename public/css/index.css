@@ -99,10 +99,6 @@
 	background-color:#F7F7F7;
 }
 
-.block-connections {
-	border-top: 1px solid #dadada;
-}
-
 .block-connections .xs a:hover{
 	background-color: #55D49C;
 	color: white;
@@ -121,4 +117,26 @@
 
 .block-keywords {
 	border-top: 1px solid #dadada;
+	margin-top: 20px;
+}
+
+.articles {
+	margin: auto;
+}
+
+.articles td.title {
+	text-align: left;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: Roboto;
+	font-style: italic;
+}
+
+.articles td.date {
+	text-align: right;
+	padding-right: 30px;
+    color: #777;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 20px;
 }

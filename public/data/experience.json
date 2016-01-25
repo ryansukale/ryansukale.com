@@ -40,7 +40,7 @@
 		"startDate":"02-01-2013",
 		"startDateDisplay":"Feb 2013",
 		"endDate":"05-01-2014",
-		"endDateDisplay":"Present",
+		"endDateDisplay":"May 2014",
 		"summary":"- Designed, wireframed and implemented the interface for the STEP - a scholarly text editing platform - funded by the NEH. <br/>- Created instructional videos and conducted usability tests.",
 		"keywords":["wireframing","usability","jquery","javascript","css"]
 	},
@@ -55,7 +55,7 @@
 		"startDate":"08-01-2012",
 		"startDateDisplay":"Aug 2012",
 		"endDate":"05-01-2014",
-		"endDateDisplay":"Present",
+		"endDateDisplay":"May 2014",
 		"summary":"- Created interactive surveys to analyze the uncanny valley effect for research experiments. <br/>- Created a hulu-like survey to conduct a ~20 day long participatory research experiment.",
 		"keywords":["uncanny valley","jquery","javascript","mysql","php"]
 	},

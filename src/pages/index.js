@@ -7,12 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>I am just an ordinary man, chasing his dreams.</h1>
+    <SEO title="Home" keywords={[`ryansukale`, `profile`, `portfolio`]} />
+    <h1 className="tagline">I am just an ordinary man, chasing his dreams.</h1>
 
-    I am a software engineer by profession specializing in User Experience Design and Front end web development, primarily using tecnologies like React.
-
-    I often write about <a>User Experience</a>, and <a>Javascript</a>.
+    I am a software engineer by profession specializing in User Experience Design and Front end web development. I often write about <a>User Experience</a>, and <a>Javascript</a> in my spare time.
 
     You can also read about my other work on
 
@@ -21,16 +19,11 @@ const IndexPage = () => (
       <li>Health and Nutrition</li>
     </ul>
 
-    <div> Second life </div>
-
+    <div>Second life</div>
     I am a dancer/performer training myself in Latin dances like Bachata and Salsa, Brazilian zouk and modern hip hop and freestyle.
 
-    You can watch some of my performances here. And some of my choreography here. Aside from that I also indulge in some lightweight photography on my instagram feed.
+    You can watch some of my performances here. And some of my freestyle/choreography here. Aside from that I also indulge in some casual photography on my instagram.
 
-    Javascript
-    
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
       <img src="https://source.unsplash.com/random/400x200" alt="" />

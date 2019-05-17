@@ -1,23 +1,27 @@
-import React from "react"
+/** @jsx jsx */
 import { Link } from "gatsby"
+import { jsx, css } from '@emotion/core'
 
 import Layout from "../components/Layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ds from "../utils/designSystem";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`ryansukale`, `profile`, `portfolio`]} />
     <h1 className="tagline">I am just an ordinary man, chasing his dreams.</h1>
 
-    I am a software engineer by profession specializing in User Experience Design and Front end web development. I often write about <a>User Experience</a>, and <a>Javascript</a> in my spare time.
+    I am a software engineer by profession specializing in User Experience Design and Front end web development. I often write about <a href="/">User Experience</a>, and <a href="/">Javascript</a> in my spare time.
 
-    You can also read about my other work on
-
-    <ul>
-      <li>Minimalism</li>
-      <li>Health and Nutrition</li>
-    </ul>
+    <div css={ds.p__sm}>
+      You can also read about my other work on
+      <br/>
+      <ul>
+        <li>Minimalism</li>
+        <li>Health and Nutrition</li>
+      </ul>
+    </div>
 
     <div>Second life</div>
     I am a dancer/performer training myself in Latin dances like Bachata and Salsa, Brazilian zouk and modern hip hop and freestyle.

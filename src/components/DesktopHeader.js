@@ -1,27 +1,27 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 // import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 
-import SiteNav, {ContentGroup} from 'react-site-nav'
+// import SiteNav, {ContentGroup} from 'react-site-nav'
+import ds from "../utils/designSystem";
+
+const nav = [
+  { label: 'Home' },
+  { label: 'Projects' },
+  { label: 'Skills' },
+  { label: 'Experience' },
+  { label: 'Bookshelf' },
+];
 
 export default function DesktopHeader() {
+  const menuItems = nav.map(navItem => <li css={ds.p__sm}>{navItem.label}</li>);
+
   return (
-    <SiteNav
-      align="center" /* center, left, right. This directly maps to justify-content of the root grid. */
-      columnWidth="150"
-      rowHeight="45"
-      background="#323232"
-      color="#fff"
-      fontSize="18"
-      fontFamily="Helvetica, sans-serif"
-      contentBackground="#fff" /* Applies to all content groups */
-      contentColor="#323232" /* Applies to all content groups */
-      contentTop="0" /* Adjusts the distance between ContentGroups and root items */
-      breakpoint="768" /* Show site nav at this breakpoint */
-      debug={false} /* Keep ContentGroups open to make debugging easier */
-    >
-      <ContentGroup title="Bookshelf" rootUrl="https://github.com/yusinto" />
-      <ContentGroup title="Skills" rootUrl="https://github.com/yusinto" />
-    </SiteNav>
+    <nav>
+      <ul css={[ds.list__n, ds.d__f]}>
+        {menuItems}
+      </ul>
+    </nav>
   );
 }

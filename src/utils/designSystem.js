@@ -22,7 +22,7 @@ const atomic = {
   p__lg : `padding: ${spacing.large};`,
 
   // padding - horizontal
-  px__x_sm : `padding-left: ${spacing.xsmall}; padding-right: ${spacing.xsmall};`,
+  px__xsm : `padding-left: ${spacing.xsmall}; padding-right: ${spacing.xsmall};`,
   px__sm : `padding-left: ${spacing.small}; padding-right: ${spacing.small};`,
   px__md : `padding-left: ${spacing.medium}; padding-right: ${spacing.medium};`,
   px__lg : `padding-left: ${spacing.large}; padding-right: ${spacing.large};`

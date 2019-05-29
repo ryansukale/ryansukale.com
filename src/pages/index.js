@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { Link } from "gatsby"
-import { jsx, css } from '@emotion/core'
+import { jsx } from '@emotion/core'
 
 import Layout from "../components/Layout"
 import Image from "../components/image"

@@ -13,6 +13,13 @@ export const spacing = {
 };
 // -- End Theme --
 
+const textDecorationStyles = {
+  td__lt: 'text-decoration: line-through;',
+  td__n: 'text-decoration: none;',
+  td__o: 'text-decoration: overline;',
+  td__u: 'text-decoration: underline;',
+};
+
 const listStyles = {
   list__n : `list-style-type: none;`,
 };
@@ -56,7 +63,8 @@ const paddingStyles = {
 const atomic = {
   ...displayStyles,
   ...listStyles,
-  ...paddingStyles
+  ...textDecorationStyles,
+  ...paddingStyles,
 };
 
 export default Object.keys(atomic).reduce((acc, style) => {

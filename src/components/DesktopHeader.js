@@ -7,20 +7,26 @@ import { jsx } from '@emotion/core'
 import ds from "../utils/designSystem";
 
 const nav = [
-  { label: 'Home' },
-  { label: 'Projects' },
-  { label: 'Skills' },
-  { label: 'Experience' },
-  { label: 'Bookshelf' },
+  { label: 'Home', href: '/' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'Skills', href: '/skills' },
+  { label: 'Experience', href: '/experience' },
+  { label: 'Bookshelf', href: 'bookshelf' },
 ];
 
-export default function DesktopHeader() {
-  const menuItems = nav.map(navItem => <li css={ds.p__sm}>{navItem.label}</li>);
+export function renderMenuItem(data) {
+  return (
+    <li css={ds.p__sm}>
+      <a css={ds.td__n} href={data.href}>{data.label}</a>
+    </li>
+  );
+}
 
+export default function DesktopHeader() {
   return (
     <nav>
       <ul css={[ds.list__n, ds.d__f]}>
-        {menuItems}
+        {nav.map(renderMenuItem)}
       </ul>
     </nav>
   );

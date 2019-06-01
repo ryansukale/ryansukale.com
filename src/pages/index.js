@@ -4,13 +4,21 @@ import { jsx } from '@emotion/core'
 
 import Layout from "../components/Layout"
 import Image from "../components/image"
-import SocialProfiles from "../components/SocialProfiles"
+import SocialProfileIcon from "../components/SocialProfileIcon"
 import SEO from "../components/seo"
 import ds from "../utils/designSystem";
 
 const socialProfiles = [
-  { href: "/", label: 'Twitter', logoSrc: "/TODO" }
+  { href: "/", label: 'Twitter', logoSrc: "/social_icons/twitter.svg" }
 ];
+
+export function renderSocialProfiles(profiles) {
+  return (
+    <ol css={ds.d__f}>
+      {profiles.map( item => <li key={item.label}><SocialProfileIcon {...item} /></li>)}
+    </ol>
+  );
+}
 
 const IndexPage = () => (
   <Layout>
@@ -18,22 +26,7 @@ const IndexPage = () => (
     <h1 className="tagline">I am just an ordinary man, chasing his dreams.</h1>
 
     I am a software engineer by profession specializing in User Experience Design and Front end web development. I often write about <a href="/">User Experience</a>, and <a href="/">Javascript</a> in my spare time.
-
-    <div class="container">
-      <SocialProfiles items={socialProfiles} />
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
-
+      {renderSocialProfiles(socialProfiles)}
     <div css={ds.p__sm}>
       You can also read about my other work on
       <br/>

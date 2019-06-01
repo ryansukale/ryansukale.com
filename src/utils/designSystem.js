@@ -6,6 +6,8 @@ export const colors = {
 };
 
 export const spacing = {
+  x3small: '.35rem',
+  x2small: '.5rem',
   xsmall: '.65rem',
   small: '.875rem',
   medium: '1rem',
@@ -56,7 +58,14 @@ const paddingStyles = {
   px__xsm : `padding-left: ${spacing.xsmall}; padding-right: ${spacing.xsmall};`,
   px__sm : `padding-left: ${spacing.small}; padding-right: ${spacing.small};`,
   px__md : `padding-left: ${spacing.medium}; padding-right: ${spacing.medium};`,
-  px__lg : `padding-left: ${spacing.large}; padding-right: ${spacing.large};`
+  px__lg : `padding-left: ${spacing.large}; padding-right: ${spacing.large};`,
+
+  pt__x3sm : `padding-top: ${spacing.x3small};`,
+  pt__x2sm : `padding-top: ${spacing.x2small};`,
+  pt__xsm : `padding-top: ${spacing.xsmall};`,
+  pt__sm : `padding-top: ${spacing.small};`,
+  pt__md : `padding-top: ${spacing.medium};`,
+  pt__lg : `padding-top: ${spacing.large};`,
 };
 
 // export default {

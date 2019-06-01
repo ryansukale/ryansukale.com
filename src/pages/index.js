@@ -4,8 +4,13 @@ import { jsx } from '@emotion/core'
 
 import Layout from "../components/Layout"
 import Image from "../components/image"
+import SocialProfiles from "../components/SocialProfiles"
 import SEO from "../components/seo"
 import ds from "../utils/designSystem";
+
+const socialProfiles = [
+  { href: "/", label: 'Twitter', logoSrc: "/TODO" }
+];
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +18,21 @@ const IndexPage = () => (
     <h1 className="tagline">I am just an ordinary man, chasing his dreams.</h1>
 
     I am a software engineer by profession specializing in User Experience Design and Front end web development. I often write about <a href="/">User Experience</a>, and <a href="/">Javascript</a> in my spare time.
+
+    <div class="container">
+      <SocialProfiles items={socialProfiles} />
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
 
     <div css={ds.p__sm}>
       You can also read about my other work on

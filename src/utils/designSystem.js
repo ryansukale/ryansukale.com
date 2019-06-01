@@ -43,7 +43,7 @@ const displayStyles = {
   d__tbhg : 'display: table-header-group;',
   d__tbfg : 'display: table-footer-group;',
   d__tbrg : 'display: table-row-group;',
-}
+};
 
 const paddingStyles = {
   // padding - all around
@@ -57,7 +57,7 @@ const paddingStyles = {
   px__sm : `padding-left: ${spacing.small}; padding-right: ${spacing.small};`,
   px__md : `padding-left: ${spacing.medium}; padding-right: ${spacing.medium};`,
   px__lg : `padding-left: ${spacing.large}; padding-right: ${spacing.large};`
-}
+};
 
 // export default {
 const atomic = {

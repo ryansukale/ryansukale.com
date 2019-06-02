@@ -1,24 +1,24 @@
 /** @jsx jsx */
-import { jsx, css } from '@emotion/core';
-import PropTypes from "prop-types";
-import ds from "../utils/designSystem";
+import { jsx, css } from "@emotion/core"
+import PropTypes from "prop-types"
+import ds from "../utils/designSystem"
 
 const styles = {
-  socialProfileIcon: css`
+  icon: css`
     width: 40px;
     height: 40px;
-    background-repeat: none;
-  `
-};
+    background-repeat: no-repeat;
+    text-align-center;
+    margin: 0 auto;
+  `,
+}
 
-export default function SocialProfileIcon({ label, href, logoSrc }) {
+export default function SocialProfileIcon(props) {
+  const { label, logoSrc, ...linkProps } = props
   return (
-    <a href={href} css={ds.d__inb}>
-      <div
-        css={styles.socialProfileIcon}
-        style={{backgroundImage: `url(${logoSrc})`}}
-      />
+    <a {...linkProps} css={ds.d__inb}>
+      <div css={[styles.icon]} style={{ backgroundImage: `url(${logoSrc})` }} />
       <div css={ds.pt__x3sm}>{label}</div>
     </a>
-  );
+  )
 }

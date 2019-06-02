@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import 'reset-css/reset.css';
-import 'bootstrap-css-only/css/bootstrap-grid.min.css';
+import "reset-css/reset.css"
+import "bootstrap-css-only/css/bootstrap-grid.min.css"
 // import "./layout.css"
 
 import DesktopHeader from "./DesktopHeader"

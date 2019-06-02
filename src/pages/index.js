@@ -44,11 +44,11 @@ export function renderSocialProfiles(profiles) {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={["ryansukale", "profile", "portfolio"]} />
-    <h1 className="tagline">I am just an ordinary man, chasing his dreams.</h1>I
-    am a software engineer by profession specializing in User Experience Design
-    and Front end web development. I often write about{" "}
-    <a href="/">User Experience</a>, and <a href="/">Javascript</a> in my spare
-    time.
+    <h1 className="tagline">Observe -> Infer -> Create -> Release</h1>
+
+    <div css={ds.mt__md}>
+      Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
+    </div>
     {renderSocialProfiles(socialProfiles)}
     <div css={ds.p__sm}>
       You can also read about my other work on

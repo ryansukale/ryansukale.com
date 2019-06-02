@@ -47,6 +47,10 @@ const displayStyles = {
   d__tbrg: "display: table-row-group;",
 }
 
+const marginStyles = {
+  mt__md: `margin-top: ${spacing.md};`,
+}
+
 const paddingStyles = {
   // padding - all around
   p__xsm: `padding: ${spacing.xsm};`,
@@ -60,6 +64,7 @@ const paddingStyles = {
   px__md: `padding-left: ${spacing.md}; padding-right: ${spacing.md};`,
   px__lg: `padding-left: ${spacing.lg}; padding-right: ${spacing.lg};`,
 
+  // padding - top
   pt__x3sm: `padding-top: ${spacing.x3sm};`,
   pt__x2sm: `padding-top: ${spacing.x2sm};`,
   pt__xsm: `padding-top: ${spacing.xsm};`,
@@ -74,6 +79,7 @@ const atomic = {
   ...listStyles,
   ...textDecorationStyles,
   ...paddingStyles,
+  ...marginStyles,
 }
 
 export default Object.keys(atomic).reduce((acc, style) => {

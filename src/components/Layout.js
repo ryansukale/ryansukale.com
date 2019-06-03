@@ -5,41 +5,39 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
 
 import "reset-css/reset.css"
 import "bootstrap-css-only/css/bootstrap-grid.min.css"
+import ds from "../utils/designSystem"
 // import "./layout.css"
 
 import DesktopHeader from "./DesktopHeader"
 
+const styles = {
+  // https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+  parent: css`
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  `,
+  children: css`
+    flex: 1;
+  `
+}
+
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <div class="container">
-        <DesktopHeader />
-        <div>
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
-      </div>
-    )}
-  />
+  <div className="container" css={styles.parent}>
+    <DesktopHeader />
+    <main css={styles.children}>{children}</main>
+    <footer css={ds.p__sm}>
+      © {new Date().getFullYear()}, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </footer>
+  </div>
 )
 
 Layout.propTypes = {

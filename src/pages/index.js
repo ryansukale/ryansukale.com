@@ -50,22 +50,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={["ryansukale", "profile", "portfolio"]} />
 
-    <div className="container">
-      <div className="row justify-content-center">
-        <h1 css={styles.tagline}>Observe -> Infer -> Create -> Release</h1>
-      </div>
+    <div className="row justify-content-center">
+      <h1 css={styles.tagline}>Observe -> Infer -> Create -> Release</h1>
+    </div>
 
-      <div className="row justify-content-center">
-        <div css={ds.mt__md}>
-          Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
-        </div>
+    <div className="row justify-content-center">
+      <div css={ds.mt__md}>
+        Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
       </div>
+    </div>
 
-      <div
-        className="row justify-content-center"
-        css={[ds.mt__md]}>
-        {renderSocialProfiles(socialProfiles)}
-      </div>
+    <div
+      className="row justify-content-center"
+      css={[ds.mt__md]}>
+      {renderSocialProfiles(socialProfiles)}
     </div>
   </Layout>
 )

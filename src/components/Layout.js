@@ -11,28 +11,16 @@ import PropTypes from "prop-types"
 
 import "reset-css/reset.css"
 import "bootstrap-css-only/css/bootstrap-grid.min.css"
-import ds from "../utils/designSystem"
+import ds, {utils as dsUtils} from "../utils/designSystem"
 // import "./layout.css"
 
 import DesktopHeader from "./DesktopHeader"
 
-const styles = {
-  // https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-  parent: css`
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  `,
-  children: css`
-    flex: 1;
-  `
-}
-
 const Layout = ({ children }) => (
   <div className="container" css={styles.parent}>
     <DesktopHeader />
-    <main css={styles.children}>{children}</main>
-    <footer css={ds.p__sm}>
+    <main css={dsUtils.stickyFooter.parent}>{children}</main>
+    <footer css={[dsUtils.stickyFooter.children, ds.p__sm]}>
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

@@ -73,6 +73,20 @@ const paddingStyles = {
   pt__lg: `padding-top: ${spacing.lg};`,
 }
 
+export const utils = {
+  stickyFooter: {
+    // https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+    container: css`
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    `,
+    children: css`
+      flex: 1
+    `
+  }
+}
+
 // export default {
 const atomic = {
   ...displayStyles,

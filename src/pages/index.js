@@ -1,9 +1,8 @@
 /** @jsx jsx */
 import { Link } from "gatsby"
-import { jsx } from "@emotion/core"
+import { jsx, css } from "@emotion/core"
 
 import Layout from "../components/Layout"
-import Image from "../components/image"
 import SocialProfileIcon from "../components/SocialProfileIcon"
 import SEO from "../components/seo"
 import ds from "../utils/designSystem"
@@ -29,6 +28,12 @@ const socialProfiles = [
   },
 ]
 
+const styles = {
+  tagline: css`
+    font-family: sans;
+  `
+}
+
 export function renderSocialProfiles(profiles) {
   return (
     <ol css={ds.d__f}>
@@ -44,29 +49,24 @@ export function renderSocialProfiles(profiles) {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={["ryansukale", "profile", "portfolio"]} />
-    <h1 className="tagline">Observe -> Infer -> Create -> Release</h1>
 
-    <div css={ds.mt__md}>
-      Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
+    <div className="container">
+      <div className="row justify-content-center">
+        <h1 css={styles.tagline}>Observe -> Infer -> Create -> Release</h1>
+      </div>
+
+      <div className="row justify-content-center">
+        <div css={ds.mt__md}>
+          Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
+        </div>
+      </div>
+
+      <div
+        className="row justify-content-center"
+        css={[ds.mt__md]}>
+        {renderSocialProfiles(socialProfiles)}
+      </div>
     </div>
-    {renderSocialProfiles(socialProfiles)}
-    <div css={ds.p__sm}>
-      You can also read about my other work on
-      <br />
-      <ul>
-        <li>Minimalism</li>
-        <li>Health and Nutrition</li>
-      </ul>
-    </div>
-    <div>Second life</div>I am a dancer/performer training myself in Latin
-    dances like Bachata and Salsa, Brazilian zouk and modern hip hop and
-    freestyle. You can watch some of my performances here. And some of my
-    freestyle/choreography here. Aside from that I also indulge in some casual
-    photography on my instagram.
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

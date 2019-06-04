@@ -82,7 +82,7 @@ export const utils = {
       flex-direction: column;
     `,
     children: css`
-      flex: 1
+      flex: 1;
     `
   }
 }

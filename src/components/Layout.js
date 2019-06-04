@@ -17,10 +17,10 @@ import ds, {utils as dsUtils} from "../utils/designSystem"
 import DesktopHeader from "./DesktopHeader"
 
 const Layout = ({ children }) => (
-  <div className="container" css={styles.parent}>
+  <div className="container" css={dsUtils.stickyFooter.container}>
     <DesktopHeader />
-    <main css={dsUtils.stickyFooter.parent}>{children}</main>
-    <footer css={[dsUtils.stickyFooter.children, ds.p__sm]}>
+    <main css={dsUtils.stickyFooter.children}>{children}</main>
+    <footer css={ds.p__md}>
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

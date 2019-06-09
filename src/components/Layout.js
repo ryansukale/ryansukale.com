@@ -12,13 +12,15 @@ import PropTypes from "prop-types"
 import "reset-css/reset.css"
 import "bootstrap-css-only/css/bootstrap-grid.min.css"
 import ds, {utils as dsUtils} from "../utils/designSystem"
+
+import navItems from "../data/headerNav"
 // import "./layout.css"
 
-import DesktopHeader from "./DesktopHeader"
+import DesktopHeader from "../oz/react/components/DesktopHeader";
 
 const Layout = ({ children }) => (
   <div className="container" css={dsUtils.stickyFooter.container}>
-    <DesktopHeader />
+    <DesktopHeader items={navItems}/>
     <main css={dsUtils.stickyFooter.children}>{children}</main>
     <footer css={ds.p__md}>
       © {new Date().getFullYear()}, Built with

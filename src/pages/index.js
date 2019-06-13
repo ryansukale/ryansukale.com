@@ -55,7 +55,7 @@ const IndexPage = () => (
 
     <div className="row justify-content-center">
       <div css={ds.mt__md}>
-        Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end web development</a>.
+        Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end architecture</a>.
       </div>
     </div>
 

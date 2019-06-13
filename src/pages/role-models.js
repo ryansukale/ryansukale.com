@@ -4,12 +4,12 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import ds from "../utils/designSystem"
 
-const BookshelfPage = () => (
+const RoleModelsPage = () => (
   <Layout>
-    <SEO title="Bookshelf" keywords={["ryansukale", "profile", "portfolio"]} />
+    <SEO title="RoleModels" keywords={["ryansukale", "profile", "portfolio"]} />
 
     <div className="row justify-content-center">
-      Bookshelf
+      RoleModels
     </div>
 
     <div className="row justify-content-center">
@@ -22,4 +22,4 @@ const BookshelfPage = () => (
   </Layout>
 )
 
-export default BookshelfPage
+export default RoleModelsPage

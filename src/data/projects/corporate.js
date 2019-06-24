@@ -4,8 +4,9 @@ const corporate = [
     projects: [
       {
         product_name: 'Trailhead',
+        product_link: 'https://trailhead.salesforce.com',
         project_name: 'Search',
-        description: 'This project involved architecting the front end of a personalized search results page. Main modules were broken down as the Search bar, result filtering, search result cards, progress indicators, pagination and recent searches. Both the mobile and desktop experience are powered by the same architecture. Challenges involved third party authentication, pagination and content folding, autocomplete, personalization and integrating UI data from multiple systems.',
+        description: 'This project involved architecting the front end of a personalized search results page. Main modules were broken down as the Search bar, result filtering, search result cards, progress indicators, pagination and recent searches. Both the mobile and desktop experience are powered by the same architecture. Challenges involved third party authentication with Coveo, pagination and content folding, autocomplete, search result personalization and integrating UI data from our rails and coveo platform.',
         technologies: [
           {
             name: 'React',
@@ -36,6 +37,7 @@ const corporate = [
       },
       {
         product_name: 'Trailhead',
+        product_link: 'https://trailhead.salesforce.com',
         project_name: 'Global Header and navigation',
         description: 'The trailhead global header involed re-implementing the site navigation as an accessible react component for both the mobile and desktop experience.',
         technologies: [
@@ -58,6 +60,7 @@ const corporate = [
       },
       {
         product_name: 'Trailhead',
+        product_link: 'https://trailhead.salesforce.com',
         project_name: 'Accessibility',
         description: '',
         technologies: [
@@ -74,6 +77,7 @@ const corporate = [
       },
       {
         product_name: 'Trailhead',
+        product_link: 'https://trailhead.salesforce.com',
         project_name: 'API documentation platform',
         description: '',
         technologies: [
@@ -98,8 +102,9 @@ const corporate = [
         slideshow_image_urls: [],
       },
       {
-        product_name: 'Trailhead',
-        project_name: 'CMS',
+        product_name: 'developer.salesforce.com',
+        product_link: 'https://developer.salesforce.com',
+        project_name: 'Content Management System(CMS)',
         description: '',
         technologies: [
           {
@@ -123,7 +128,8 @@ const corporate = [
         slideshow_image_urls: [],
       },
       {
-        product_name: 'Trailhead',
+        product_name: 'developer.salesforce.com',
+        product_link: 'https://developer.salesforce.com',
         project_name: 'Community events',
         description: '',
         technologies: [

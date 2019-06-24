@@ -22,3 +22,9 @@ export default function SocialProfileIcon(props) {
     </a>
   )
 }
+
+SocialProfileIcon.propTypes = {
+  label: PropTypes.string.isRequired,
+  logoSrc: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired
+};

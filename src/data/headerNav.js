@@ -10,26 +10,21 @@ const navItems = [
       href: "/projects"
     }
   },
-  { label: "Skills",
-    link: {
-      href: "/skills"
-    }
-  },
-  { label: "Experience",
-    link: {
-      href: "/experience"
-    }
-  },
-  { label: "Bookshelf",
-    link: {
-      href: "/bookshelf"
-    }
-  },
-  { label: "Role Models",
-    link: {
-      href: "/role-models"
-    }
-  },
+  // { label: "Experience",
+  //   link: {
+  //     href: "/experience"
+  //   }
+  // },
+  // { label: "Bookshelf",
+  //   link: {
+  //     href: "/bookshelf"
+  //   }
+  // },
+  // { label: "Role Models",
+  //   link: {
+  //     href: "/role-models"
+  //   }
+  // },
 ];
 
 export default navItems;

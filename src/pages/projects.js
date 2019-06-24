@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core"
+import { jsx } from "@emotion/core"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import ds from "../utils/designSystem"
+import ds from "../oz/styles/emotion/atoms"
 
 import corporate from "../data/projects/corporate"
 
@@ -14,22 +14,35 @@ function Project(props) {
   )
 }
 
-const ProjectsPage = () => (
-  <Layout>
-    <SEO title="Projects" keywords={["ryansukale", "profile", "portfolio"]} />
-
-    <div className="row justify-content-center">
+function Company({company_name, projects}) {
+  return (
+    <div
+      key={company_name}
+      css={ds.mt__sm}>
+      <div
+        css={[ds.fw_b, ds.fz_3lg]}>
+        {company_name}
+      </div>
       <ul>
         {
-          corporate[0].projects.map(
-            p => 
-            <li key={p.product_name + p.project_name}>
-              <Project {...p} />
-            </li>
+          projects.map(
+            p =>
+              <li
+                key={p.product_name + p.project_name}>
+                <Project {...p} />
+              </li>
           )
         }
       </ul>
     </div>
+  );
+}
+
+const ProjectsPage = () => (
+  <Layout>
+    <SEO title="Projects" keywords={["ryansukale", "profile", "portfolio"]} />
+
+    {corporate.map(data => <Company key={data.company_name} {...data} /> )}
 
     <div className="row justify-content-center">
     </div>

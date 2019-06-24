@@ -1,5 +1,7 @@
 import { css } from "@emotion/core"
 
+// TODO: Remove all the x. e.g. Use {n}lg of x{n}lg
+
 // -- Start Theme --
 export const colors = {
   primary: "lightblue",
@@ -20,6 +22,20 @@ const textDecorationStyles = {
   td__n: "text-decoration: none;",
   td__o: "text-decoration: overline;",
   td__u: "text-decoration: underline;",
+}
+
+const fontWeights = {
+  fw_b: 'font-weight: bold;',
+  fw_i: 'font-weight: italic;'
+}
+
+const fontSizes = {
+  fz_md: 'font-size: 1rem;', // TODO: Set them as variables
+  fz_lg: 'font-size: 1.2rem;',
+  fz_2lg: 'font-size: 1.4rem;',
+  fz_3lg: 'font-size: 1.7rem;',
+  fz_4lg: 'font-size: 2rem;',
+  fz_5lg: 'font-size: 2.5rem;'
 }
 
 const listStyles = {
@@ -49,6 +65,9 @@ const displayStyles = {
 
 const marginStyles = {
   mt__md: `margin-top: ${spacing.md};`,
+  mt__sm: `margin-top: ${spacing.sm};`,
+
+  my__sm: `margin-top: ${spacing.sm}; margin-bottom: ${spacing.sm};`,
 }
 
 const paddingStyles = {
@@ -94,6 +113,8 @@ const atomic = {
   ...textDecorationStyles,
   ...paddingStyles,
   ...marginStyles,
+  ...fontWeights,
+  ...fontSizes
 }
 
 export default Object.keys(atomic).reduce((acc, style) => {

@@ -6,7 +6,7 @@
  */
 
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core"
+import { jsx } from "@emotion/core"
 import PropTypes from "prop-types"
 
 import "reset-css/reset.css"

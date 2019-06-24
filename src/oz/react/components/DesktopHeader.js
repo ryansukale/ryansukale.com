@@ -5,7 +5,9 @@ import oz from "../../styles/emotion/atoms";
 
 export function renderMenuItem({label, link}) {
   return (
-    <li css={oz.p__sm}>
+    <li
+      key={label}
+      css={oz.p__sm}>
       <a
         css={oz.td__n}
         {...link}

@@ -1,7 +1,5 @@
 import { css } from "@emotion/core"
 
-// TODO: Remove all the x. e.g. Use {n}lg of x{n}lg
-
 // -- Start Theme --
 export const colors = {
   primary: "lightblue",
@@ -15,6 +13,15 @@ export const spacing = {
   md: "1rem",
   lg: "1.25rem",
 }
+
+const textSizes = {
+  md: '1rem',
+  lg: '1.2rem',
+  xlg: '1.4rem',
+  x2lg: '1.7rem',
+  x3lg: '2rem',
+  x4lg: '2.5rem'
+}
 // -- End Theme --
 
 const textDecorationStyles = {
@@ -25,17 +32,17 @@ const textDecorationStyles = {
 }
 
 const fontWeights = {
-  fw_b: 'font-weight: bold;',
-  fw_i: 'font-weight: italic;'
+  fw__b: 'font-weight: bold;',
+  fw__i: 'font-weight: italic;'
 }
 
 const fontSizes = {
-  fz_md: 'font-size: 1rem;', // TODO: Set them as variables
-  fz_lg: 'font-size: 1.2rem;',
-  fz_2lg: 'font-size: 1.4rem;',
-  fz_3lg: 'font-size: 1.7rem;',
-  fz_4lg: 'font-size: 2rem;',
-  fz_5lg: 'font-size: 2.5rem;'
+  fz_md: `font-size: ${textSizes.md};`,
+  fz__lg: `font-size: ${textSizes.lg}`,
+  fz__xlg: `font-size: ${textSizes.xlg}`,
+  fz__x2lg: `font-size: ${textSizes.x2lg}`,
+  fz__x3lg: `font-size: ${textSizes.x3lg};`,
+  fz__x4lg: `font-size: ${textSizes.x4lg};`
 }
 
 const listStyles = {

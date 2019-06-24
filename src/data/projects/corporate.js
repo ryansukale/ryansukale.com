@@ -157,6 +157,7 @@ const corporate = [
     projects: [
       {
         product_name: 'Yahoo Finance',
+        product_link: 'https://finance.yahoo.com/',
         project_name: 'Portfolio redesign',
         description: 'As an early adopter of React, starting with version 0.8, I worked on the redesign of Yahoo Finance portfolio and Quotes pages. The project involved conducing several user research session, session analysis, prototyping, implementation and A/B testing',
         technologies: [
@@ -182,6 +183,7 @@ const corporate = [
       },
       {
         product_name: 'Yahoo Finance',
+        product_link: 'https://finance.yahoo.com/',
         project_name: 'Home page redesign',
         description: 'Yahoo finance homepage is one of the highest trafficed web pages within Yahoo. I was responsible for implementing the news feed using, the main menu and several other parts of the page as a result of continuous A/B testing.',
         technologies: [
@@ -207,6 +209,7 @@ const corporate = [
       },
       {
         product_name: 'Yahoo Finance',
+        product_link: 'https://finance.yahoo.com/',
         project_name: 'Data visusalization prototypes',
         description: 'A large part of the the redesign of Yahoo finance involved taking personalization to a whole new level in the product. I designed several early stage data visualiations prototypes for the next generation of Yahoo Finance portfolios. This involved competitor analysis and market research and a deeper study of the Finance and stock trading',
         technologies: [

@@ -9,7 +9,9 @@ import corporate from "../data/projects/corporate"
 function Project(props) {
   return (
     <div>
-      {props.product_name}
+      <a href={props.product_link}>
+        {props.product_name}
+      </a>
     </div>
   )
 }
@@ -20,7 +22,7 @@ function Company({company_name, projects}) {
       key={company_name}
       css={ds.mt__sm}>
       <div
-        css={[ds.fw_b, ds.fz_3lg]}>
+        css={[ds.fw__b, ds.fz__x2lg]}>
         {company_name}
       </div>
       <ul>

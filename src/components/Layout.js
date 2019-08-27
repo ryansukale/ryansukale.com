@@ -12,6 +12,7 @@ import PropTypes from "prop-types"
 import "reset-css/reset.css"
 import "bootstrap-css-only/css/bootstrap-grid.min.css"
 import ds, {utils as dsUtils} from "../utils/designSystem"
+import "../oz/styles/sassy/index.scss";
 
 import navItems from "../data/headerNav"
 // import "./layout.css"
@@ -19,7 +20,7 @@ import navItems from "../data/headerNav"
 import DesktopHeader from "../oz/react/components/DesktopHeader";
 
 const Layout = ({ children }) => (
-  <div className="container" css={dsUtils.stickyFooter.container}>
+  <div className="container oz" css={dsUtils.stickyFooter.container}>
     <DesktopHeader items={navItems}/>
     <main css={dsUtils.stickyFooter.children}>{children}</main>
     <footer css={ds.p__md}>

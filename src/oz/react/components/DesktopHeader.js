@@ -7,9 +7,9 @@ export function renderMenuItem({label, link}) {
   return (
     <li
       key={label}
-      css={oz.p__sm}>
+      className="p--sm">
       <a
-        css={oz.td__n}
+        className="td--n"
         {...link}
       >
         {label}
@@ -21,7 +21,7 @@ export function renderMenuItem({label, link}) {
 export default function DesktopHeader({items}) {
   return (
     <nav>
-      <ul css={[oz.list__n, oz.d__f]}>
+      <ul className="list--n d--f">
         {items.map(renderMenuItem)}
       </ul>
     </nav>

@@ -1,0 +1,29 @@
+$color-primary: lightblue;
+
+$space-x3sm: .35rem;
+$space-x2sm: .5rem;
+$space-xsm: .65rem;
+$space-sm: .875rem;
+$space-md: 1rem;
+$space-lg: 1.25rem;
+
+.oz {
+  .p--xsm { padding: $space-xsm; }
+  .p--sm { padding: $space-sm; }
+  .p--md { padding: $space-md; }
+  .p--lg { padding: $space-lg; }
+
+  // padding - horizontal
+  .px--xsm { padding-left: $space-xsm; padding-right: $space-xsm; }
+  .px--sm { padding-left: $space-sm; padding-right: $space-sm; }
+  .px--md { padding-left: $space-md; padding-right: $space-md; }
+  .px--lg { padding-left: $space-lg; padding-right: $space-lg; }
+
+  // padding - top
+  .pt--x3sm { padding-top: $space-x3sm; }
+  .pt--x2sm { padding-top: $space-x2sm; }
+  .pt--xsm { padding-top: $space-xsm; }
+  .pt--sm { padding-top: $space-sm; }
+  .pt--md { padding-top: $space-md; }
+  .pt--lg { padding-top: $space-lg; }
+}

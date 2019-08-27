@@ -35,9 +35,9 @@ const styles = {
 
 export function renderSocialProfiles(profiles) {
   return (
-    <ol css={ds.d__f}>
+    <ol className="d--f">
       {profiles.map(item => (
-        <li key={item.label} css={ds.px__md}>
+        <li key={item.label} className="px--md">
           <SocialProfileIcon {...item} />
         </li>
       ))}
@@ -50,18 +50,18 @@ const IndexPage = () => (
     <SEO title="Home" keywords={["ryansukale", "profile", "portfolio"]} />
 
     <div className="row justify-content-center">
-      <h1 css={styles.tagline}>Observe -> Infer -> Create -> Release</h1>
+      <h1 className={styles.tagline}>Observe -> Infer -> Create -> Release</h1>
     </div>
 
     <div className="row justify-content-center">
-      <div css={ds.mt__md}>
+      <div className="mt--md">
         Software engineer specializing in <a href="/" target="_blank">User Experience Design</a> and <a href="/" target="_blank">Front end architecture</a>.
       </div>
     </div>
 
     <div
       className="row justify-content-center"
-      css={[ds.mt__md]}>
+      className="mt--md">
       {renderSocialProfiles(socialProfiles)}
     </div>
   </Layout>

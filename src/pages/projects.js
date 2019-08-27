@@ -20,9 +20,9 @@ function Company({company_name, projects}) {
   return (
     <div
       key={company_name}
-      css={ds.mt__sm}>
+      className="mt--sm">
       <div
-        css={[ds.fw__b, ds.fz__x2lg]}>
+        className="fw--b fz--x2lg">
         {company_name}
       </div>
       <ul>
@@ -51,7 +51,7 @@ const ProjectsPage = () => (
 
     <div
       className="row justify-content-center"
-      css={[ds.mt__md]}>
+      className="mt--md">
     </div>
   </Layout>
 )

@@ -2,7 +2,7 @@
 import { jsx } from "@emotion/core"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import ds from "../utils/designSystem"
+// import ds from "../utils/designSystem"
 
 const ExperiencePage = () => (
   <Layout>
@@ -17,7 +17,7 @@ const ExperiencePage = () => (
 
     <div
       className="row justify-content-center"
-      css={[ds.mt__md]}>
+      css="mt--md">
     </div>
   </Layout>
 )

@@ -15,7 +15,7 @@ const corporate = [
             name: 'Javascript',
           },
           {
-            name: 'Rxjs',
+            name: 'RxJS',
           },
           {
             name: 'Redux',
@@ -85,7 +85,7 @@ const corporate = [
             name: 'React'
           },
           {
-            name: 'Rxjs'
+            name: 'RxJS'
           },
           {
             name: 'Redux' 
@@ -111,7 +111,7 @@ const corporate = [
             name: 'React'
           },
           {
-            name: 'Rxjs'
+            name: 'RxJS'
           },
           {
             name: 'Redux' 

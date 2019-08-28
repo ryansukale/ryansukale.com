@@ -20,10 +20,10 @@ import navItems from "../data/headerNav"
 import DesktopHeader from "../oz/react/components/DesktopHeader";
 
 const Layout = ({ children }) => (
-  <div className="container oz" css={dsUtils.stickyFooter.container}>
+  <div className="container oz oz-sticky-footer-container">
     <DesktopHeader items={navItems}/>
-    <main css={dsUtils.stickyFooter.children}>{children}</main>
-    <footer css={ds.p__md}>
+    <main className="oz-sticky-footer-children">{children}</main>
+    <footer className="p--md">
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

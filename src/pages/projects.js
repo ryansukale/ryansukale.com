@@ -50,8 +50,7 @@ const ProjectsPage = () => (
     </div>
 
     <div
-      className="row justify-content-center"
-      className="mt--md">
+      className="row justify-content-center mt--md">
     </div>
   </Layout>
 )
